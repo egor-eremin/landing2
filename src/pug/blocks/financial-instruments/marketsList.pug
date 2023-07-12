@@ -1,0 +1,29 @@
+section.section.section-markets
+	.main-decor
+		.scroll-decor.account-decor_bc(data-aos="fade-left" data-depth="0.03")
+		.scroll-decor.advantages-decor_tl(data-aos="fade-down" data-depth="0.03")
+		.scroll-decor.account-decor_tl(data-aos="fade-right")
+		.scroll-decor.advantages-decor_cc(data-aos="fade-down" data-depth="0.07")
+	.wrapper
+		.markets-list
+			-for(let i = 1; i < 7; i++)
+				.markets-list__item(class=["markets-list__item"+i] data-aos="fade-up")
+					h3.markets-list__title.h2-title !{marketsListText["market"+i].title[lang]}
+					p.markets-list__text !{marketsListText["market"+i].text[lang]}
+					.markets-list__btns
+						if i == 1
+							a(href="currencies.html").btn.btn-white.btn-big !{buttonText.btnLearMore[lang]}
+						else if i == 2
+							a(href="metals.html").btn.btn-white.btn-big !{buttonText.btnLearMore[lang]}
+						else if i == 3
+							a(href="stocks.html").btn.btn-white.btn-big !{buttonText.btnLearMore[lang]}
+						else if i == 4
+							a(href="commodities.html").btn.btn-white.btn-big !{buttonText.btnLearMore[lang]}
+						else if i == 5
+							a(href="indices.html").btn.btn-white.btn-big !{buttonText.btnLearMore[lang]}
+						else if i == 6
+							a(href="cryptocurrencies.html").btn.btn-white.btn-big !{buttonText.btnLearMore[lang]}
+						if i == 1 || i == 3 || i == 5 || i == 6
+							a(href=linkSignup).btn.btn-main.btn-big !{buttonText.btnStartTrade[lang]}
+						else
+							a(href=linkSignup).btn.btn-second.btn-big !{buttonText.btnStartTrade[lang]}

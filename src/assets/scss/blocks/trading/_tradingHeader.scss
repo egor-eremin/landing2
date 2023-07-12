@@ -1,0 +1,35 @@
+.decor-img_header-2_trading-conditions {
+  top: rem(-313px);
+}
+.decor-img_header-3_trading-conditions {
+  top: rem(-313px);
+  transform: rotate(35deg);
+  &::before {
+    right: rem(-21px);
+    border-color: #FF5B5B;
+  }
+}
+.decor-img_header-4_trading-conditions {
+  width: rem(131px);
+  height: rem(236px);
+  border-color: #F5F4B2;
+  top: rem(-84px);
+  left: rem(-159px);
+}
+.decor-img_header-5_trading-conditions {
+  border-color: #FF5B5B;
+}
+.decor-img_header-6_trading-conditions {
+  border-radius: 0 rem(90px) rem(90px) rem(90px);
+  border-color: #F5F4B2;
+  top: rem(84px);
+}
+.decor-img_header-7_trading-conditions {
+  border-radius: rem(90px) rem(90px) rem(90px) 0;
+  border-color: #8ED1FD;
+  top: rem(125px);
+}
+
+@media screen and (max-width: 1160px) {
+
+}

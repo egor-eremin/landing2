@@ -1,0 +1,37 @@
+mixin account(i)
+	.account-list__item(class=["account-list__item"+i])
+		.account-header
+			h3.accounts-list__title.h3-title !{indexAccountsText["account" + i].title[lang]}
+			p.accounts-list__text !{indexAccountsText["account" + i].text[lang]}
+			//a(href=linkSignup).btn !{buttonText.btnStartTrade[lang]}
+		.accounts-list__conditions
+			if i == 1
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_1[lang]} $1&nbsp000
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_2[lang]} 1:20
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_3[lang]}
+				.accounts-conditions-item.hide !{indexAccountsText.account_condition_4[lang]}
+				.accounts-conditions-item.hide !{indexAccountsText.account_condition_10[lang]}
+				.accounts-conditions-item.hide !{indexAccountsText.account_condition_6[lang]}
+				.accounts-conditions-item.hide !{indexAccountsText.account_condition_7[lang]}
+				.accounts-conditions-item.hide !{indexAccountsText.account_condition_8[lang]}
+				.accounts-conditions-item.hide !{indexAccountsText.account_condition_9[lang]}
+			else if i == 2
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_1[lang]} $25&nbsp000
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_2[lang]} 1:50
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_3[lang]}
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_4[lang]}
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_10[lang]}
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_6[lang]}
+				.accounts-conditions-item.hide !{indexAccountsText.account_condition_7[lang]}
+				.accounts-conditions-item.hide !{indexAccountsText.account_condition_8[lang]}
+				.accounts-conditions-item.hide !{indexAccountsText.account_condition_9[lang]}
+			else if i == 3
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_1[lang]} $50&nbsp000
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_2[lang]} 1:100
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_3[lang]}
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_4[lang]}
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_10[lang]}
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_6[lang]}
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_7[lang]}
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_8[lang]}
+				.accounts-conditions-item.check !{indexAccountsText.account_condition_9[lang]}

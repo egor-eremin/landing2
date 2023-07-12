@@ -1,0 +1,57 @@
+section.section.section-tool-overview
+    .wrapper-parallax.scene
+        .parallax-item.parallax-item_tool-overview(data-depth="0.03")
+    .wrapper.wrapper-tool-overview
+        h2.h2-title.h2-title_tool-overview !{indexInstrumentsText.h2[lang]}
+        p.prev-text.center !{indexInstrumentsText.text[lang]}
+        .tool-overview-content
+            .tool-overview-graph
+                script(type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async)
+                    |  {
+                    |         "colorTheme": "light",
+                    | "dateRange": "12M",
+                    | "showChart": true,
+                    | "locale": "en",
+                    | "width": "100%",
+                    | "height": "100%",
+                    | "largeChartUrl": "",
+                    | "isTransparent": false,
+                    | "showSymbolLogo": true,
+                    | "showFloatingTooltip": false,
+                    | "plotLineColorGrowing": "rgba(14, 193, 36, 1)",
+                    | "plotLineColorFalling": "rgba(14, 193, 36, 0.83)",
+                    | "gridLineColor": "rgba(240, 243, 250, 0)",
+                    | "scaleFontColor": "rgba(14, 193, 36, 1)",
+                    | "belowLineFillColorGrowing": "rgba(14, 193, 36, 0.12)",
+                    | "belowLineFillColorFalling": "rgba(14, 193, 36, 0.12)",
+                    | "belowLineFillColorGrowingBottom": "rgba(14, 193, 36, 0)",
+                    | "belowLineFillColorFallingBottom": "rgba(14, 193, 36, 0)",
+                    | "symbolActiveColor": "rgba(14, 193, 36, 0.12)",
+                    | "tabs": [
+                    | {
+                    | "title": "Metals",
+                    | "symbols": [
+                    | {
+                    | "s": "TVC:SILVER"
+                    | },
+                    | {
+                    | "s": "TVC:PALLADIUM"
+                    | },
+                    | {
+                    | "s": "TVC:GOLD"
+                    | },
+                    | {
+                    | "s": "CAPITALCOM:NICKEL"
+                    | }
+                    | ]
+                    | }
+                    | ]
+                    | }
+            .tool-overview-text
+                h3.h3-tool-overview.h3-title !{marketsListText.market2.title[lang]}
+                p.tool-overview !{marketsListText.market2.text[lang]}
+                .tool-overview__btns
+                    a(href=linkSignup).btn.btn_tool-overview  !{buttonText.btnOpenAcc[lang]}
+                    a(href="metals.html").btn.btn_small.btn_not-bg !{buttonText.btnLearMore[lang]}
+
+

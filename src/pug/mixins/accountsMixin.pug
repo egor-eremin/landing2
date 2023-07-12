@@ -1,0 +1,11 @@
+mixin account(i, ...conditions)
+	.account-list__item(class=["account-list__item"+i])
+		.account-information-wrapper
+			.accounts-list__header
+				h3.accounts-list__title.h3-title(class="accounts-list__title-" + lang) !{indexAccountsText["account"+i].title[lang]}
+				p.accounts-list__text !{indexAccountsText["account"+i].text[lang]}
+				a(href=linkSignup).btn.btn-account !{buttonText.btnOpenAcc[lang]}
+			ul.accounts-list__conditions
+				each condition in conditions
+					li.conditions-list__item !{condition}
+			a(href=linkSignup).btn.btn_accounts !{buttonText.btnOpenAcc[lang]}

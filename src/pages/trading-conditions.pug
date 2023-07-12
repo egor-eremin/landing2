@@ -1,0 +1,31 @@
+extends ../pug/base/base
+
+append vars
+	- lang = "en"
+	- currentPage = 'trading-conditions'
+	- baseDir = lang == "en" ? baseDir : "../"
+	- title = titles.trading[lang]
+	- link.favicon = baseDir + "favicon/favicon.ico"
+	- link.appleTouchIcon = baseDir + "favicon/apple-touch-icon.png"
+	- link.appleTouchIcon152x152 = baseDir + "favicon/apple-touch-icon-152x152.png"
+	- link.appleTouchIcon167x167 = baseDir + "favicon/apple-touch-icon-167x167.png"
+	- link.appleTouchIcon180x180 = baseDir + "favicon/apple-touch-icon.png"
+	- link.manifest = baseDir + "favicon/site.webmanifest"
+	- meta.themeColor = "#ffffff"
+
+//- prepend styles (если нужно добавить ссылку на стили до базовой)
+append styles
+	link(rel="stylesheet" href=`${baseDir}assets/css/trading.min.css`)
+
+block header
+	include ../pug/blocks/trading/tradingHeader.pug
+
+block content
+	.accounts-trade
+		include ../pug/blocks/index/indexAccounts.pug
+	include ../pug/blocks/trading/tradingCalculator.pug
+	.steps-trade
+		include ../pug/blocks/index/indexSteps.pug
+
+//- prepend scripts (если нужно добавить ссылку на скрипты до базовой)
+append scripts

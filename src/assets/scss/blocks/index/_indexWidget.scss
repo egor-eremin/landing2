@@ -1,0 +1,30 @@
+.h2-title_widget {
+  margin-bottom: rem(16px);
+}
+.widget {
+  width: 100%;
+}
+.widget-text {
+  margin-bottom: rem(40px);
+}
+.widget_1 {
+  margin-bottom: rem(40px);
+}
+.widget_2 {
+  height: rem(377px);
+}
+
+@media (max-width: 1160px) {
+  .h2-title_widget {
+    margin-bottom: rem(16px) !important;
+  }
+  .widget_2 {
+    height: rem(330px);
+  }
+  .widget_1 {
+    margin-bottom: rem(24px);
+  }
+  .widget-text {
+    margin-bottom: rem(32px);
+  }
+}

@@ -1,0 +1,14 @@
+-let delayValueFaq = 200;
+
+section.section.section-faq
+    .wrapper.wrapper_faq
+        h2.h2-title.h2-title_faq.h2-title_max-width.center !{indexFaqText.h2[lang]}
+        ul.faq-list
+            -for (let i = 1; i < 7; i++)
+                -let n = rndNumArray[i - 1];
+                li.faq-item(class="faq-item--" + i)
+                    .faq-item__inner
+                        .faq-item__header.js--faq-header
+                            h3.h3-title_ask.h3-title !{indexFaqText["item"+n].title[lang]}
+                            button.faq-item__toggle.js--faq-toggle
+                        p.faq-item__answer.js--faq-answer !{indexFaqText["item"+n].text[lang]}

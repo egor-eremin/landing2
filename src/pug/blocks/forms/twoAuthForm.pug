@@ -1,0 +1,10 @@
+.popup.popup-twoauthstep.mfp-hide#twoauthstep-popup
+	h3.h2-title.h3-title_twoauthstep.h2-title_callback.left !{formsText.titleTwoauth[lang]}
+	.help-text.help-text_twoauthstep.help-text-form_login !{formsText.text_required[lang]}
+	form#twoauthstep-form.callback-form.main-form_twoauthstep(method="post")
+		.form-item.form-item_twoauth
+			label.input-wrapper
+				span.label-form !{formsText.lableTwoauth[lang]}
+				input.form-input#auth-code(type="text" required name="code" placeholder= formsText.placeholderTwoauth[lang])
+		.btn-twoauth-wrapper
+			button.js--send-authcode.btn.btn-twoauth.btn-submit(type="submit") !{buttonText.btnSend[lang]}

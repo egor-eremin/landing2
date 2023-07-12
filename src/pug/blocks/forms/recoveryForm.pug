@@ -1,0 +1,21 @@
+header.form-header
+	.scene
+		.scroll-decor.header-decor_tl(data-aos="fade-down" data-depth="0.03")
+		.scroll-decor.header-decor_bl(data-aos="fade-up" data-depth="0.07")
+		.scroll-decor.header-decor_tr(data-aos="fade-down" data-depth="0.07")
+		.scroll-decor.header-decor_br(data-aos="fade-up" data-depth="0.03")
+	.main-decor
+		.scroll-decor.header-decor_bl-sm
+		.scroll-decor.header-decor_tr-sm
+	.wrapper.form-wrapper.login-form
+		h2.h1-title !{fotmsText.titleReminder[lang]}
+		form#restore-form.main-form
+			.form-item
+				.form-item_wrapper
+					input.form-item_input#submit-email(type="email" required name="email" placeholder= formsText.placeholderEmail[lang])
+					label.form-item_label(for="submit-email") !{formsText.labelMail[lang]}
+			.text-center
+				button.js--repass.btn.btn-main !{buttonText.btnSend[lang]}				
+		.form-links
+			a(href="login.html").form-links_item !{formsText.allreadyText[lang]}
+			a(href="registration.html").form-links_item !{buttonText.signup[lang]}

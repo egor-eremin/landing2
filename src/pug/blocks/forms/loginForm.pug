@@ -1,0 +1,25 @@
+include ../nav.pug
+header.page-header.page-header_forms.page-header_forms-login.page-header_other-page
+	.wrapper-page-image(data-aos="" data-aos-delay="300")
+		.wrapper.wrapper__header-bg
+			img.img-header.img-header_form(src=baseDir + "assets/images/form.png" alt="contacts")
+	.wrapper.wrapper-header.form-wrapper.wrapper-header_other-page(data-aos="" data-aos-delay="300")
+		.text-header-wrapper.text-header-wrapper_login.text-header-wrapper_forms
+			a(href="registration.html").form-links_item.form-links_item-login !{buttonText.signup[lang]}
+			h1.h1-title.h2-title_login.h1-title_register.left !{buttonText.login[lang]}
+			.help-text.help-text-form.help-text-form_login !{formsText.text_required[lang]}
+			form#enter-form.main-form.main-form_login
+				.form-item.form-item_login
+					label.input-wrapper
+						span.label-form.label-form_sign !{formsText.labelMail[lang]}
+						input.form-input.form-input_sign#submit-email(type="email" required name="email" placeholder= formsText.placeholderEmail[lang])
+				.form-item.form-item_login.form-item_login-last
+					label.input-wrapper.input-wrapper-password
+						span.label-form.label-form_sign !{formsText.labelPassword[lang]}
+						input.form-input.form-input_sign.form-input-pass#submit-pass-show(type="password" name="password" minlength="2" maxlength="50" placeholder= formsText.placeholderPassword[lang])
+						.show-icon
+				.form-btn-submit.form-btn-submit_login
+					button.btn-submit.js--login-form.btn.btn-login-form.btn-main-form !{buttonText.login[lang]}
+					.form-links.form-links_login
+						a(href="recovery.html").form-links_item !{formsText.forgotText[lang]}
+

@@ -1,0 +1,13 @@
+.section-assets {
+  padding-top: rem(18px);
+}
+.markets-list__item-assets {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1160px) {
+  .markets-list__item-assets {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

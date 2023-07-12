@@ -1,0 +1,227 @@
+@import "main";
+
+@import "partials/calculator";
+@import "blocks/index/indexAccounts";
+@import "blocks/index/indexSteps";
+@import "blocks/trading/tradingHeader";
+.decor-header_trading {
+  height: rem(146px);
+}
+.header-img_trading {
+  margin-top: rem(134px);
+}
+.calculator-wrapper {
+  position: relative;
+}
+.section-calculators__text {
+  margin-bottom: rem(24px);
+}
+.wrapper-calculators {
+  position: relative;
+  z-index: 2;
+  &::before {
+    left: rem(-68px);
+    top: rem(-19px);
+  }
+}
+.estimation-prev-text {
+  margin-bottom: rem(32px);
+  display: none;
+}
+.clc-table-estimation {
+  margin-bottom: rem(21px);
+}
+.estimation__title {
+  font-size: rem(16px);
+  line-height: rem(22px);
+  margin-bottom: rem(10px);
+}
+.estimation-list__item {
+  position: relative;
+  width: 100%;
+  font-weight: 600;
+  color: $font-dark-01;
+  padding-bottom: rem(16px);
+  margin-bottom: rem(16px);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: $grey-2;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.estimation-title {
+  margin-bottom: rem(36px);
+}
+.description {
+  display: inline;
+  max-width: rem(864px);
+  width: 100%;
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 400;
+  color: $font-dark-02;
+  margin-left: rem(8px);
+}
+.right-blue-decor_estimation {
+  top: -381px;
+  left: rem(910px);
+}
+.estimation {
+  width: 100%;
+  margin-top: rem(56px);
+}
+.img-header_trading {
+  width: rem(728px);
+  height: 100%;
+  left: auto;
+  transform: none;
+  right: rem(-140px);
+}
+.section-estimation {
+  padding-bottom: rem(120px);
+}
+.steps-trade {
+  position: relative;
+}
+.wrapper-calc-header {
+  display: flex;
+  margin-bottom: rem(32px);
+}
+.wrapper-calc-header__text {
+  max-width: rem(648px);
+  width: 100%;
+  margin-right: rem(24px);
+  margin-top: rem(2px);
+}
+.header-calc {
+  border-radius: rem(30px);
+}
+.section-calculators__title {
+  margin-bottom: rem(8px);
+}
+.decor-circle_calculators-1 {
+  top: rem(-236px);
+  left: rem(-418px);
+}
+.calc-wrapper {
+  position: relative;
+}
+.estimation-text {
+  margin-bottom: rem(16px);
+}
+.wrapper-header_tarding {
+  position: relative;
+  align-items: flex-start;
+}
+.text-header-wrapper_trading {
+  align-items: flex-start;
+  margin-top: rem(128px);
+}
+.h1-title_trading {
+  padding-top: rem(32px);
+  &::before {
+    background-image: url("../images/title-decor-triangle.svg");
+    width: rem(55px);
+    height: rem(16px);
+  }
+}
+.page-header_tarding {
+  padding-bottom: rem(276px);
+}
+.calc-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: rem(53px);
+}
+.clc-results_estimation {
+  padding: 0;
+}
+.decor-circle_estimation-1 {
+  right: rem(-432px);
+  bottom: rem(-496px);
+}
+.calculators-prev-text {
+  margin-bottom: rem(40px);
+}
+.main-footer_trading-conditions {
+  margin-top: 0;
+}
+
+@media (max-width: 1160px) {
+  .header-img_trading {
+    left: auto;
+  }
+  .wrapper-calc-header__text {
+    margin-top: 0;
+    margin-right: 0;
+    max-width: none;
+  }
+  .section-calculators__title {
+    margin-bottom: rem(16px) !important;
+  }
+  .estimation-title {
+    padding-bottom: 0;
+    margin-bottom: rem(24px) !important;
+  }
+  .page-header__text-trading {
+    margin-bottom: rem(32px);
+  }
+  .estimation-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .wrapper-header_tarding {
+    &::before {
+      display: none;
+    }
+  }
+  .section-calculators {
+    padding-top: rem(40px);
+  }
+  .calc-header-img {
+    display: none;
+  }
+  .calc-header-wrapper {
+    justify-content: center;
+    margin-bottom: rem(24px);
+  }
+  .calculators-prev-text {
+    left: 0;
+    transform: none;
+    text-align: left;
+    margin-bottom: rem(24px);
+  }
+  .section-estimation {
+    padding-top: rem(40px);
+    padding-bottom: rem(40px);
+  }
+  .steps-trade .section-steps {
+    padding-top: rem(40px);
+    padding-bottom: rem(40px);
+  }
+  .section-estimation__title {
+    text-align: left;
+  }
+  .estimation {
+    margin-top: rem(40px);
+  }
+  .estimation-list__item {
+    justify-content: flex-start;
+    display: block;
+  }
+  .description {
+    max-width: none;
+  }
+}

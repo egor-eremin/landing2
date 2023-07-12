@@ -1,0 +1,32 @@
+if accounts_type == "cold"
+	include ../../mixins/accountsMixinCold.pug
+else
+	include ../../mixins/accountsMixinHot.pug
+
+
+section.section.section-accounts
+	.wrapper.wrapper_accounts
+		h2.h2-title.h2-title__accounts.left !{indexAccountsText.h2[lang]}
+		.wrapper-accounts(data-aos="fade-up" data-aos-delay="300")
+			.accounts-list-tabs.accounts-list-tabs-js
+				.accounts-list-tabs_item
+					h3.accounts-list__title.h3-title !{indexAccountsText.account1.title[lang]}
+					p.accounts-list__text.desctop !{indexAccountsText.account1.text[lang]}
+				.accounts-list-tabs_item
+					h3.accounts-list__title.h3-title !{indexAccountsText.account2.title[lang]}
+					p.accounts-list__text.desctop !{indexAccountsText.account2.text[lang]}
+				.accounts-list-tabs_item
+					h3.accounts-list__title.h3-title !{indexAccountsText.account3.title[lang]}
+					p.accounts-list__text.desctop !{indexAccountsText.account3.text[lang]}
+			.accounts-list.accounts-slider-js
+				+account(1)
+				+account(2)
+				+account(3)
+				//.accounts-pagination-wrapper
+				//	a(href=linkSignup).btn !{buttonText.btnOpenAcc[lang]}
+				//	.navigation-wrapper.navigation-wrapper_accounts
+				//		.slide-number-wrapper.slide-number-wrapper_accounts
+				//			.number-slider.current-slide
+				//			.number-slider.number-of-slides
+				//		.dots-wrapper.dots-wrapper-accounts-init-js.dots-wrapper_accounts.clip-path
+				//		.arrow-wrapper.arrow-wrapper-accounts-init-js.arrow-wrapper_accounts

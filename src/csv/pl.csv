@@ -1,0 +1,513 @@
+id,constant,position,translate
+1. Главная страница,,,
+1.1. Посадочная страница.,,,
+1,indexHeaderText.slide1.title,Заголовок №1,Wygodna platforma do zarabiania Company Name
+2,indexHeaderText.slide1.text|dot,Подзаголовок к заголовку №1,Szeroka funkcjonalność dochodowych inwestycji.
+3,indexHeaderText.slide2.title,Заголовок №2,Dostępne rynki do inwestycji
+4,indexHeaderText.slide2.text|dot,Подзаголовок к заголовку №2,Duży wybór instrumentów handlowych do różnych strategii.
+5,indexHeaderText.slide3.title,Заголовок №3,Wygodny i dostępny interfejs
+6,indexHeaderText.slide3.text|dot,Подзаголовок к заголовку №3,24 godziny dziennie dostęp do wersji platformy mobilnej i pulpitu.
+7,indexHeaderText.slide4.title,Заголовок №4,Korzystne warunki handlowe
+8,indexHeaderText.slide4.text|dot,Подзаголовок к заголовку №4,Różnorodność planów taryfowych dla różnych celów inwestycyjnych.
+1.2. Почему мы? (Преимущества),,,
+9,indexAdvantagesText.h2,Главный заголовок раздела,Company Name Wybierz
+10,indexAdvantagesText.advantage1.title,Преимущество №1,Handlowcy nowicjuszy
+11,indexAdvantagesText.advantage1.text|dot,Описание преимущества №1,Różnorodność instrumentów handlowych i analitycznych pozwala zrozumieć handel od podstaw.
+12,indexAdvantagesText.advantage2.title,Преимущество №2,Doświadczeni uczestnicy
+13,indexAdvantagesText.advantage2.text|dot,Описание преимущества №2,Zmniejszone prowizje i lepsze warunki handlowe do obrotu na rynku brokerskim.
+14,indexAdvantagesText.advantage3.title,Преимущество №3,Dużych inwestorów
+15,indexAdvantagesText.advantage3.text|dot,Описание преимущества №3,Wybór kilku opcji usług dla wszelkich celów inwestycyjnych.
+16,indexAdvantagesText.advantage4.title,Преимущество №4,Koneserzy komfortu
+17,indexAdvantagesText.advantage4.text|dot,Описание преимущества №4,Dostępny interfejs platformy zapewnia komfortowe warunki handlu.
+18,indexAdvantagesText.advantage5.title,Преимущество №5,Podróżni
+19,indexAdvantagesText.advantage5.text|dot,Описание преимущества №5,Platforma Company Name jest dostępna do obrotu z dowolnego miejsca na świecie z dostępem do Internetu.
+20,indexAdvantagesText.advantage6.title,Преимущество №6,Eksperci w inwestowaniu
+21,indexAdvantagesText.advantage6.text|dot,Описание преимущества №6,Szeroka gama instrumentów handlowych pozwala wdrożyć różne strategie.
+1.3. Дополнительные преимущества.,,,
+22,indexBenefitsText.h2,Главный заголовок раздела,Odblokuj potencjał Company Name
+23,indexBenefitsText.benefit1.title,Преимущество №1,Ponad 200 instrumentów handlowych
+24,indexBenefitsText.benefit1.text|dot,Описание преимущества №1,Wybierz z najbardziej dochodowych platform inwestycyjnych.
+25,indexBenefitsText.benefit2.title,Преимущество №2,Bezpieczny handel na platformie
+26,indexBenefitsText.benefit2.text|dot,Описание преимущества №2,Company Name Współpracuje z renomowanymi regulacjami finansowymi
+27,indexBenefitsText.benefit3.title,Преимущество №3,Natychmiastowa wykonanie zamówień
+28,indexBenefitsText.benefit3.text|dot,Описание преимущества №3,Nasze serwery zapewniają przetwarzanie transakcji o dużej prędkości.
+29,indexBenefitsText.benefit4.title,Преимущество №4,Wiarygodne informacje o cytatach
+30,indexBenefitsText.benefit4.text|dot,Описание преимущества №4,Dane dotyczące zmian kursów wymiany są publikowane z oficjalnych źródeł.
+1.4. Как начать.,,,
+31,indexStepsText.h2,Главный заголовок раздела,Utwórz konto na platformie Company Name
+32,indexStepsText.step1.title,Шаг №1,Rejestracja
+33,indexStepsText.step1.text|dot,Описание Шага №1,Wypełnij swoje dane osobowe o sobie.
+34,indexStepsText.step2.title,Шаг №2,Depozyt
+35,indexStepsText.step2.text|dot,Описание Шага №2,Uzupełniaj swoje konto osobiste w wygodny sposób.
+36,indexStepsText.step3.title,Шаг №3,Handlowy
+37,indexStepsText.step3.text|dot,Описание Шага №3,Zainwestuj w różne instrumenty handlowe.
+1.5. Информация об аккаунтах.,,,
+38,indexAccountsText.h2,Главный заголовок раздела,Taryfy
+39,indexAccountsText.account1.title,Аккаунт №1,Standard
+40,indexAccountsText.account1.text|dot,Подзаголовок для аккаунта №1,Dostęp do głównych instrumentów handlowych na platformie.
+41,indexAccountsText.account2.title,Аккаунт №2,Advanced
+42,indexAccountsText.account2.text|dot,Подзаголовок для аккаунта №2,Pełna funkcjonalność i statystyki dynamiki rynku.
+43,indexAccountsText.account3.title,Аккаунт №3,Premium
+44,indexAccountsText.account3.text|dot,Подзаголовок для аккаунта №3,Serwis VIP i korzystne warunki handlowe.
+45,indexAccountsText.account_condition_1,Минимальный депозит:,Minimalny depozyt
+46,indexAccountsText.account_condition_2,Кредитное плечо:,Wpływ
+47,indexAccountsText.account_condition_3,Моментальное исполнение,Natychmiastowe wykonanie
+48,indexAccountsText.account_condition_4,Торговля криптовалютами и металлами,Cryptourrenki i handel metali
+49,indexAccountsText.account_condition_5,Возможность инвестиций в ПАММ-счета,Pamm - konta inwestujące
+50,indexAccountsText.account_condition_6,Отсутствие свопа,Brak swapu
+51,indexAccountsText.account_condition_7,Торговля ETF и индексами,Indeks i handel etf
+52,indexAccountsText.account_condition_8,Страхование депозитов,Ubezpieczenie depozytu
+53,indexAccountsText.account_condition_9,Персональный менеджер,Osobisty menedżer
+54,indexAccountsText.account_condition_10,Открытие личного ПАММ-счета,Otwieranie osobistego konta pamm
+53,indexAccountsText.account_condition_11,Защита депозитов,Ochrona depozytów
+54,indexAccountsText.account_condition_12,Круглосуточная поддержка,24-godzinna obsługa osobista
+1.6. Новости,,,
+55,indexNewsText.h2,Главный заголовок раздела,Ostatnia wiadomość ekonomiczna
+1.7. Виджеты,,,
+56,indexWidgetText.h2,Главный заголовок раздела,Podstawowa grafika i analizy
+57,indexWidgetText.text|dot,Подзаголовок для раздела виджеты ,"Uzyskaj dostęp do danych graficznych na temat rynku, instrumentów handlowych, dynamiki cytatów."
+58,indexWidgetText.item1.title,Advanced Real-Time Chart Widget,Wykres w czasie rzeczywistym
+59,indexWidgetText.item1.text|dot,Описание,Zmiana cytatów dla różnych instrumentów handlowych w czasie rzeczywistym
+60,indexWidgetText.item2.title,Technical Analysis Widget,Analiza techniczna
+61,indexWidgetText.item2.text|dot,Описание,Oceny wskaźników technicznych do analizy instrumentów finansowych
+62,indexWidgetText.item3.title,Market Overview Widget,Przegląd rynku
+63,indexWidgetText.item3.text|dot,Описание,Ogólna analiza rynków finansowych i oceny analitycznej ich aktualnego stanu
+64,indexWidgetText.item4.title,Market Data Widget,Dane rynkowe
+65,indexWidgetText.item4.text|dot,Описание,"Szczegółowy przegląd dynamiki i trendów rynków światowych, cen otwarcia, wysoki, niski i więcej"
+66,indexWidgetText.item5.title,Stock Market Widget,Giełda Papierów Wartościowych
+67,indexWidgetText.item5.text|dot,Описание,Informacje o rozwoju i spadku wartości zapasów najbardziej dochodowych firm
+68,indexWidgetText.item6.title,Economic Calendar Widget,Kalendarz ekonomiczny
+69,indexWidgetText.item6.text|dot,Описание,Informacje o ważnych przyszłych wiadomościach gospodarczych i wydarzeń
+70,indexWidgetText.item7.title,Ticker Widget,Dane o cytatach
+71,indexWidgetText.item7.text|dot,Описание,Codzienne zmiany cen instrumentów finansowych i ich obecnych wskaźników
+72,indexWidgetText.item8.title,Ticker Tape Widget,Dynamika cytatów
+73,indexWidgetText.item8.text|dot,Описание,Dane dotyczące zmian w notowatach dla różnych instrumentów handlowych
+74,indexWidgetText.item9.title,Single Ticker Widget,Instrument handlowy
+75,indexWidgetText.item9.text|dot,Описание,Podstawowe informacje o zmianach cen dla wybranego instrumentu handlowego
+76,indexWidgetText.item10.title,Mini Chart Widget,Mini-wykres instrumentu handlowego
+77,indexWidgetText.item10.text|dot,Описание,"Cena, zmiana procentowa, kompaktowa i zrozumiała wykres dla wybranego instrumentu"
+78,indexWidgetText.item11.title,Symbol Overview Widget,Przegląd instrumentu
+79,indexWidgetText.item11.text|dot,Описание,"Zaktualizowane cytaty, prosty wykres i podstawowe dane podstawowe dla jednego zapasu"
+80,indexWidgetText.item12.title,Symbol Info Widget,Informacje o instrumencie
+81,indexWidgetText.item12.text|dot,Описание,"Podstawowe informacje W wygodnym formacie, wyświetlając raporty firmowe i zmiany w notowań"
+82,indexWidgetText.item13.title,Forex Cross Rates Widget,Stawki krzyżowe
+83,indexWidgetText.item13.text|dot,Описание,Wyświetlanie cytatów w czasie rzeczywistym wybranych walut w stosunku do innych walut
+84,indexWidgetText.item14.title,Forex Heat Map Widget,Mapa ciepła walut
+85,indexWidgetText.item14.text|dot,Описание,"Przegląd działalności rynku forex, identyfikacja silnej i słabej waluty w czasie rzeczywistym"
+86,indexWidgetText.item15.title,Screener widget,Przegląd zapasów
+87,indexWidgetText.item15.text|dot,Описание,Wydajny wybór zapasów za pomocą podstawowych danych i wartości różnych wskaźników technicznych
+88,indexWidgetText.item16.title,Cryptocurrency Market Widget,Przegląd rynku CryptoCurrency
+89,indexWidgetText.item16.text|dot,Описание,"Informacje o cenie zamknięcia, całkowitej i dostępnej liczbie monet, wolumenów i odsetek zmian cen"
+90,indexWidgetText.item17.title,Fundamental Data Widget,Podstawowe wskaźniki
+91,indexWidgetText.item17.text|dot,Описание,Dane do oceny aktualnego stanu firmy
+92,indexWidgetText.item18.title,Company Profile Widget,Profil firmy
+93,indexWidgetText.item18.text|dot,Описание,"Opis firmy, a także główne kategorie - sektory i branże"
+94,indexWidgetText.item19.title,Timeline Widget,Historia rynków
+95,indexWidgetText.item19.text|dot,Описание,"Najważniejsze wydarzenia popularnych międzynarodowych firm, kryptokurburów i innych aktywów"
+96,indexWidgetText.item2.title,Available Markets for Widgets,Analityka instrumentów finansowych
+97,indexWidgetText.item2.text|dot,Описание,Informacje o dostępnych wykresach dla różnych instrumentów handlowych na platformie
+1.8. Вопрос - Ответ,,,
+98,indexFaqText.h2,Заголовок,Ta sekcja przedstawia odpowiedzi na często zadawane pytania
+99,indexFaqText.item1.title,Вопрос 1,"Nie wiem, jak korzystać z platformy handlowej. Co powinienem zrobić?"
+100,indexFaqText.item1.text|dot,Ответ 1,"Na naszej stronie znajduje się sekcja z lekcjami wideo, aby zapoznać się z podstawowymi zasadami handlu i funkcjonalnością platformy"
+101,indexFaqText.item2.title,Вопрос 2,Jak otworzyć konto na platformie?
+102,indexFaqText.item2.text|dot,Ответ 2,"Przejdź przez prostą procedurę rejestracji, potwierdź swoje konto pocztą elektroniczną, a zostaniesz automatycznie dostarczany z kontem"
+103,indexFaqText.item3.title,Вопрос 3,Jakie instrumenty handlowe są dostępne do handlu?
+104,indexFaqText.item3.text|dot,Ответ 3,"Dostarczamy dostęp do ponad 200 instrumentów handlowych, które można zapoznać się z sekcją specjalną"
+105,indexFaqText.item4.title,Вопрос 4,Co jeśli nie mam okazji inwestować duże sumy?
+106,indexFaqText.item4.text|dot,Ответ 4,"Wiele instrumentów handlowych nie wymaga dużych inwestycji, a nasza platforma zapewnia również możliwość ubiegania się o dźwignię"
+107,indexFaqText.item5.title,Вопрос 5 ,Która taryfa jest dla mnie odpowiednia?
+108,indexFaqText.item5.text|dot,Ответ 5,"Każda taryfa jest przeznaczona do różnych kategorii użytkowników, badają informacje o taryfach w odpowiedniej sekcji i wybierz odpowiedni jeden"
+109,indexFaqText.item6.title,Вопрос 6,Jakie jest konto brokera i jak to działa?
+110,indexFaqText.item6.text|dot,Ответ 6,"Konto brokera pozwala na zakup i sprzedawanie papierów wartościowych, walutowych lub innych instrumentów inwestycyjnych na giełdzie"
+111,indexFaqText.item7.title,Вопрос 7,Co to jest handel marginesem?
+112,indexFaqText.item7.text|dot,Ответ 7,"Kredyty marginesowe zmniejsza potrzebę wolnej gotówki - ubiegasz się o dźwignię i może dokonać transakcji dla większych ilości niż te, które posiadasz"
+113,indexFaqText.item8.title,Вопрос 8,Do czego służy handel marginesem?
+114,indexFaqText.item8.text|dot,Ответ 8,"Wykorzystanie pożyczek na margines pozwala zwiększyć zyski zarówno gdy rynek rośnie, a gdy rynek spadnie"
+115,indexFaqText.item9.title,Вопрос 9,Co to jest połączenie marginesowe?
+116,indexFaqText.item9.text|dot,Ответ 9,"Jest to ostrzeżenie o braku funduszy na rachunku, w celu dalszego przechowywania otwartych pozycji na rynku"
+117,indexFaqText.item10.title,Вопрос 10,Czy można przesłać aplikacje w nocy?
+118,indexFaqText.item10.text|dot,Ответ 10,"Tak, masz taką okazję, ponieważ nasza platforma jest dostępna do handlu 24 godziny na dobę"
+119,indexFaqText.item11.title,Вопрос 11,Czy można użyć instrumentów analitycznych na platformie?
+120,indexFaqText.item11.text|dot,Ответ 11,"Należy to zrobić, aby przeprowadzić rentowne transakcje, nasza platforma oferuje szeroką gamę analizy graficznej, technicznej, fundamentalnej, czynnika"
+121,indexFaqText.item12.title,Вопрос 12,Ile oferujesz taryf?
+122,indexFaqText.item12.text|dot,Ответ 12,Nasza platforma oferuje trzy kategorie taryf dla różnych celów inwestycyjnych i wielkości kapitału zakładowego
+123,indexFaqText.item13.title,Вопрос 13,Skąd otrzymasz dane o cytatach?
+124,indexFaqText.item13.text|dot,Ответ 13,Publikujemy dane z oficjalnych źródeł - duże międzynarodowe firmy finansowe
+125,indexFaqText.item14.title,Вопрос 14,Czy istnieje szansa na poślizg?
+126,indexFaqText.item14.text|dot,Ответ 14,Nasze serwery zapewniają natychmiastowe wykonanie zamówień i minimalne prawdopodobieństwo poślizgu cen
+127,indexFaqText.item15.title,Вопрос 15,Kto reguluje działania Twojej firmy?
+128,indexFaqText.item15.text|dot,Ответ 15,"Odpróżnione międzynarodowe regulatory finansowe, z których lista można studiować w specjalistycznym dziale"
+129,indexFaqText.item16.title,Вопрос 16,Jaka jest dywersyfikacja inwestycji?
+130,indexFaqText.item16.text|dot,Ответ 16,"Jest to strategia inwestycyjna, w której przedsiębiorca nabywa różne kategorie aktywów w portfelu inwestycyjnym"
+131,indexFaqText.item17.title,Вопрос 17,Nie inwestuje w ryzykowny kryptokrencję?
+132,indexFaqText.item17.text|dot,Ответ 17,Przy właściwym wykorzystaniu instrumentów analitycznych przedstawionych na naszej platformie ryzyko inwestycyjne są minimalne
+133,indexFaqText.item18.title,Вопрос 18,Co jeśli mam pytanie o handel w późniejszym czasie?
+134,indexFaqText.item18.text|dot,Ответ 18,"Nasz zespół wsparcia działa, aby rozwiązać dowolne problemy 24 godziny na dobę"
+135,indexFaqText.item19.title,Вопрос 19,"Mogę nie rozumieć, jak handlować platformą?"
+136,indexFaqText.item19.text|dot,Ответ 19,"Nasz interfejs jest dostępny i intuicyjny dla każdego użytkownika, posiadamy również filmy szkoleniowe i obsługę"
+137,indexFaqText.item20.title,Вопрос 20,Co to jest kalkulator handlowca?
+138,indexFaqText.item20.text|dot,Ответ 20,"Jest to bardzo przydatny instrument, zwłaszcza dla początkujących handlowców, co pozwala obliczyć Komisję w sprawie transakcji i kwoty dostępnych środków na jego zakończenie"
+139,indexFaqText.item21.title,Вопрос 21 ,"Nie rozumiem różnicy między zapasami a indeksami zapasami, co powinienem zrobić?"
+140,indexFaqText.item21.text|dot,Ответ 21,"Badanie opisu rynków w odpowiedniej sekcji: Główną różnicą jest to, że indeksy są zestawem zapasów różnych firm zjednoczonych przez określony atrybut"
+141,indexFaqText.item22.title,Вопрос 22,Jakie są umowy bez dostawy?
+142,indexFaqText.item22.text|dot,Ответ 22,"Są to umowy, które dają prawo do posiadania pewnej kwoty składnika aktywów, ale nie oznacza jego fizycznej dostawy"
+143,indexFaqText.item23.title,Вопрос 23,Dlaczego niektóre rynki są dostępne w ograniczonym czasie?
+144,indexFaqText.item23.text|dot,Ответ 23,Ponieważ różne platformy handlowe są regulowane przez różne kraje i globalne organizacje finansowe w różnych strefach czasowych
+145,indexFaqText.item24.title,Вопрос 24,Na co są wykresy?
+146,indexFaqText.item24.text|dot,Ответ 24,Przeprowadzić graficzną analizę instrumentu handlowego i wykonalności inwestowania w nim
+147,indexFaqText.item25.title,Вопрос 25,Czy będę mógł zarabiać na handlu?
+148,indexFaqText.item25.text|dot,Ответ 25,"Nasi użytkownicy zarabiają miliony, oczywiście, że odniesiesz sukces, wystarczy zrozumieć podstawowe koncepcje"
+149,indexFaqText.item26.title,Вопрос 26,Jak wybrać z tak dużej liczby instrumentów handlowych?
+150,indexFaqText.item26.text|dot,Ответ 26,"Jest bardzo prosty: dostęp do instrumentów handlowych różni się w różnych taryfach, w zależności od doświadczenia"
+151,indexFaqText.item27.title,Вопрос 27,Które instrumenty handlowe są najłatwiejsze do inwestowania?
+152,indexFaqText.item27.text|dot,Ответ 27,"Nie ma łatwych, ale najbardziej dostępnych dla początkujących inwestorów są waluty i indeksy akcje"
+153,indexFaqText.item28.title,Вопрос 28,Dlaczego metale używane do inwestycji długoterminowej?
+154,indexFaqText.item28.text|dot,Ответ 28,"Przede wszystkim nie pogarszają się pod wpływem czynników środowiskowych i są trwałe, więc ich ceny mają stabilny dodatni wzrost"
+155,indexFaqText.item29.title,Вопрос 29,W jaki sposób sezonowość wpływa na rynek towarowy?
+156,indexFaqText.item29.text|dot,Ответ 29,"Produkcja różnych kategorii aktywów bezpośrednio zależy od warunków pogodowych, dlatego analiza czynnika rynku towarowego jest tak ważna"
+157,indexFaqText.item30.title,Вопрос 30,Dlaczego waluty podzielone na podstawowe i egzotyczne?
+158,indexFaqText.item30.text|dot,Ответ 30,"Głównymi walutami są waluty dużych krajów w stosunku do siebie, a egzotyczne są walutami małych krajów w stosunku do głównych walut lub siebie nawzajem"
+1.9. Call to action,,,
+159,indexCtaText.h2,Заголовок,Zacznij zarabiać teraz
+1.10. Обучение,,,
+160,indexStudyText.h2,Главный заголовок раздела,Inwestowanie przewodników Company Name
+161,indexStudyText.text|dot,Подзаголовок раздела обучение,Przeglądaj instrukcje wideo do zapoznania się z funkcjonalnością platformy
+162,indexStudyText.item1.title,Блок обучения 1,Wybór recepcji i taryfy
+163,indexStudyText.item1.text|dot,Описание блока обучения 1,"Sprawdź główne plany taryfy i kryteria, dla których musisz wybrać."
+164,indexStudyText.item2.title,Блок обучения 2,Główne narzędzia handlowe
+165,indexStudyText.item2.text|dot,Описание блока обучения 2,"Uzyskaj informacje na temat typów narzędzi inwestycyjnych, ich różnic i metodach inwestycyjnych."
+166,indexStudyText.item3.title,Блок обучения 3,Korzystanie z ramienia
+167,indexStudyText.item3.text|dot,Описание блока обучения 3,"Esencja, warunki projektu, zasady działania i potrzeba ramienia pożyczki."
+168,indexStudyText.item4.title,Блок обучения 4,Inwestowanie w Cryptocolutu
+169,indexStudyText.item4.text|dot,Описание блока обучения 4,Przydatne informacje o jednym z najbardziej dynamicznych i popularnych narzędzi handlowych.
+170,indexStudyText.item5.title,Блок обучения 5,Analityka w handlu
+171,indexStudyText.item5.text|dot,Описание блока обучения 5,"Jako analiza czynników, rynku, dynamiki cytatów, sezonowość wpływa na twoje zyski z handlu."
+1.11. Форма,,,
+172,indexFormText.h2,Заголовок ,Rejestracja Użytkownika
+173,indexFormText.text|dot,Подзаголовок формы,"Wypełnienie danych użytkownika, potwierdzenie konta za pośrednictwem poczty elektronicznej."
+1.12. Инструменты,,,
+174,indexInstrumentsText.h2,Заголовок ,Przegląd instrumentu handlowego
+175,indexInstrumentsText.text|dot,Подзаголовок,Graficzny wyświetlanie dynamiki cytatów i podstawowych danych o instrumencie inwestycyjnym
+1.13. Показатели,,,
+176,indexIndicatorsText.h2,Заголовок,Podstawowe wskaźniki
+177,indexIndicatorsText.text|dot,Подзаголовок,Podstawowe dane używane do oceny aktualnego stanu firmy na rynku
+1.14. Счетчики,,,
+178,indexCountersText.h2,Заголовок,Handel na platformie
+179,indexCountersText.text|dot,Подзаголовок,"Ruch drogowy, liczba użytkowników, codzienne obrotu i obrotu handlowe"
+1.15. Обратная связь,,,
+180,indexCallbackText.h2,Заголовок ,Konsultant online
+181,indexCallbackText.text1|dot,Подзаголовок ,"Gotowy, aby odpowiedzieć na wszystkie pytania"
+182,indexCallbackText.text2|dot,Описание,Usługi konsultingowe na temat wszelkich przedmiotów zainteresowań dla Ciebie zegar
+1.16. Документы,,,
+183,indexDocumentsText.h2,Заголовок,Informacje o firmie
+184,indexDocumentsText.text|dot,Подзаголовок,"Podstawowe dane o firmie, dokumenty regulujące swoje działania na rynku brokerskim"
+1.17. Платформа ,,,
+185,indexPlatformText.h2,Заголовок,Trade rynki finansowe z dowolnego miejsca na świecie
+186,indexPlatformText.text|dot,Описание,"Platforma Company Name jest instrumentem najlepszych deweloperów i ekspertów finansowych. Zawiera najbardziej innowacyjne funkcje dla skutecznego i udanego handlu. Wystarczy mieć stabilne połączenie internetowe, aby uzyskać dostęp do najbardziej zaawansowanej platformy handlowej na rynku."
+1.18. Футер,,,
+56,footerContent,Футер текст,"Company Name jest zarejestrowany na: Francja, Ile-de-France, Line A, Marne-La-Vallee Chessie Stacja. Działania Spółki prowadzone są zgodnie z wymogami Europejskiego Urzędu Nadzoru Rynku Papierów Wartościowych (numer licencji: 096/08), australijskie papiery wartościowe i inwestycje Komisji (ASIC) (19-365 MR) oraz organ regulacyjny finansowych w Wielkiej Brytanii (FCA) FRN: 584283."
+2. Рынки и инструменты,,,
+2.2. Обзор рынков,,,
+2.2.1. Посадочный экран,,,
+57,marketsHeaderText.title,Заголовок,Inwestycje na najlepsze platformy handlowe!
+58,marketsHeaderText.text|dot,Подзаголовок,Najbardziej odpowiednie instrumenty inwestycyjne na platformie Company Name
+59,commonMarketsText.title_graph,Загловок торгового графика,Wykres instrumentu handlowego
+60,commonMarketsText.title_table,Заголовок таблицы инструментов,Tabela instrumentów
+61,commonMarketsText.footnote,Часы работы рынков,* Godziny otwarcia i zamknięcia są oznaczone UTC +0
+2.2.2. Валюты,,,
+62,marketsListText.market1.title,Заголовок,Waluta
+63,marketsListText.market1.text|dot,Подзаголовок,Waluta handlowa w wolnych stawkach
+2.2.3. Металлы,,,
+64,marketsListText.market2.title,Заголовок,Metale szlachetne
+65,marketsListText.market2.text|dot,Подзаголовок,"Zdobyć aktywa ochronne, aby zminimalizować ryzyko"
+2.2.4. Акции,,,
+66,marketsListText.market3.title,Заголовок,Papiery wartościowe
+67,marketsListText.market3.text|dot,Подзаголовок,Zainwestuj w zapasy dotyczące opłacalnych firm lub startupów
+2.2.5. Товары,,,
+68,marketsListText.market4.title,Заголовок,Surowce
+69,marketsListText.market4.text|dot,Подзаголовок,Zarabiaj na różnicę cen różnych kategorii towarów
+2.2.6. Индексы,,,
+70,marketsListText.market5.title,Заголовок,Indeksy
+71,marketsListText.market5.text|dot,Подзаголовок,Dywersowanie portfolio inwestycyjnego przez zakup wskaźników
+2.2.7. Криптовалюты,,,
+72,marketsListText.market6.title,Заголовок,Market CryptoCurrency
+73,marketsListText.market6.text|dot,Подзаголовок,Przeanalizuj trendy cyfrowego rynku walutowego i zarobić na różnicę cen
+2.3. Валюты,,,
+2.3.1. Посадочный экран,,,
+74,forexHeaderText.title,Заголовок,Waluta
+75,forexHeaderText.text|dot,Подзаголовок,Płynne inwestycje na rynek walutowy
+76,forexProfitsText.profit1.title,Преимущество №1. Заголовок.,Dostępność
+77,forexProfitsText.profit1.text|dot,Преимущество №1. Описание.,Niewielka ilość inwestycji jest wystarczająca do obrotu na rynku walutowym
+78,forexProfitsText.profit2.title,Преимущество №2. Заголовок.,Plan pracy
+79,forexProfitsText.profit2.text|dot,Преимущество №2. Описание.,Platforma Company Name zapewnia 24 godziny na dobę dostęp do handlu
+80,forexProfitsText.profit3.title,Преимущество №3. Заголовок.,Wpływ
+81,forexProfitsText.profit3.text|dot,Преимущество №3. Описание.,Trader ma możliwość ubiegania się o dźwignię na korzystnych warunkach
+82,forexProfitsText.profit4.title,Преимущество №4. Заголовок.,Rentowność rynku
+83,forexProfitsText.profit4.text|dot,Преимущество №4. Описание.,Wysoka prędkość transakcji zapewnia płynność inwestycji na rynek walutowy
+2.3.2. Описание рынка,,,
+84,forexAssetsText.title,Заголовок,Rynek walutowy
+85,forexAssetsText.text|dot,Подзаголовок,Jest to jeden z najbardziej płynnych i dostępnych instrumentów inwestycyjnych do obrotu
+2.4. Металлы,,,
+2.4.1. Посадочный экран,,,
+86,metalsHeaderText.title,Заголовок,Metale szlachetne
+87,metalsHeaderText.text|dot,Подзаголовок,Aktywa ochronne w ramach portfela inwestycyjnego
+88,metalsProfitsText.profit1.title,Преимущество №1. Заголовок.,Niska zmienność
+89,metalsProfitsText.profit1.text|dot,Преимущество №1. Описание.,Ceny na rynku metali szlachetnych mają stabilne pozytywne trendy
+90,metalsProfitsText.profit2.title,Преимущество №2. Заголовок.,Kontrakty futures
+91,metalsProfitsText.profit2.text|dot,Преимущество №2. Описание.,Są rentownym instrumentem inwestycyjnym na rynku metali
+92,metalsProfitsText.profit3.title,Преимущество №3. Заголовок.,Płynność inwestycji
+93,metalsProfitsText.profit3.text|dot,Преимущество №3. Описание.,Metale szlachetne są w aktywach popytu na inwestycje
+94,metalsProfitsText.profit4.title,Преимущество №4. Заголовок.,Strategiczna różnorodność
+95,metalsProfitsText.profit4.text|dot,Преимущество №4. Описание.,"Metale można handlować zarówno w krótkim, jak i długoterminowym"
+2.4.2. Описание рынка,,,
+96,metalsAssetsText.title,Заголовок,Rynek metali szlachetnych
+97,metalsAssetsText.text|dot,Подзаголовок,Najbardziej popularną strategią na rynku metali szlachetnych jest strategia dywersyfikacji portfela inwestycyjnego
+2.5. Акции,,,
+2.5.1. Посадочный экран,,,
+98,stocksHeaderText.title,Заголовок,Papiery wartościowe
+99,stocksHeaderText.text|dot,Подзаголовок,Zapasy są jednym z najbardziej dochodowych instrumentów inwestycyjnych
+100,stocksProfitsText.profit1.title,Преимущество №1. Заголовок.,Niedrogi rynek
+101,stocksProfitsText.profit1.text|dot,Преимущество №1. Описание.,Company Name zapewnia użytkownikom możliwość inwestowania za pomocą mikrolitów.
+102,stocksProfitsText.profit2.title,Преимущество №2. Заголовок.,Dystrybucja inwestycji
+103,stocksProfitsText.profit2.text|dot,Преимущество №2. Описание.,Szeroki zakres zapasów różnych firm do dywersyfikacji portfela inwestycyjnego
+104,stocksProfitsText.profit3.title,Преимущество №3. Заголовок.,Powrót z inwestycji
+105,stocksProfitsText.profit3.text|dot,Преимущество №3. Описание.,Zapasy dużych międzynarodowych opłacalnych firm mają wysoką płynność
+106,stocksProfitsText.profit4.title,Преимущество №4. Заголовок.,Próg niskiego wejścia
+107,stocksProfitsText.profit4.text|dot,Преимущество №4. Описание.,Handel na rynku papierów wartościowych jest dostępny dla małej inwestycji
+2.5.2. Описание рынка,,,
+108,stocksAssetsText.title,Заголовок,Rynek papierów wartościowych
+109,stocksAssetsText.text|dot,Подзаголовок,"Handlowcy zarabiają pieniądze, zmieniając wartość zapasów różnych firm"
+2.6. Товары,,,
+2.6.1. Посадочный экран,,,
+110,commoditiesHeaderText.title,Заголовок,Towar
+111,commoditiesHeaderText.text|dot,Подзаголовок,Inwestycje w transpalizacjom rolnym i energetycznym
+112,commoditiesProfitsText.profit1.title,Преимущество №1. Заголовок.,Powrót z inwestycji
+113,commoditiesProfitsText.profit1.text|dot,Преимущество №1. Описание.,Najbardziej ciekłe kategorie aktywów są sprzedawane na giełdzie towarowej
+114,commoditiesProfitsText.profit2.title,Преимущество №2. Заголовок.,Zarządzanie ryzykiem
+115,commoditiesProfitsText.profit2.text|dot,Преимущество №2. Описание.,Wzrost inflacji nie ma negatywnego wpływu na zmianę cytatów
+116,commoditiesProfitsText.profit3.title,Преимущество №3. Заголовок.,Umowy bez dostawy
+117,commoditiesProfitsText.profit3.text|dot,Преимущество №3. Описание.,"Umowy CFD są używane na wymianie towaru, aby zarabiać na różnicę cen"
+118,commoditiesProfitsText.profit4.title,Преимущество №4. Заголовок.,Zmienność
+119,commoditiesProfitsText.profit4.text|dot,Преимущество №4. Описание.,Platforma Company Name zapewnia szeroki wybór różnych kategorii towarów
+2.6.2. Описание рынка,,,
+120,commoditiesAssetsText.title,Заголовок,Rynek towarów
+121,commoditiesAssetsText.text|dot,Подзаголовок,"Produkty energii, towarów, przemysłu rolnego i leśnego krążą na rynku towarowym"
+2.7. Индексы,,,
+2.7.1. Посадочный экран,,,
+122,indicesHeaderText.title,Заголовок,Indeksy
+123,indicesHeaderText.text|dot,Подзаголовок,Kup zestaw zapasów najbardziej dochodowych firm w branży
+124,indicesProfitsText.profit1.title,Преимущество №1. Заголовок.,Rentowność
+125,indicesProfitsText.profit1.text|dot,Преимущество №1. Описание.,Wskaźniki obejmują najbardziej płynne zapasy z rosnącymi trendami
+126,indicesProfitsText.profit2.title,Преимущество №2. Заголовок.,Korzystne warunki
+127,indicesProfitsText.profit2.text|dot,Преимущество №2. Описание.,Zmniejszone opłaty transakcyjne i popularne wskaźniki zapasów na platformie Company Name
+128,indicesProfitsText.profit3.title,Преимущество №3. Заголовок.,Zabezpieczanie inwestycji
+129,indicesProfitsText.profit3.text|dot,Преимущество №3. Описание.,Wskaźniki zapasów są używane w handlu w zakresie inwestycji długoterminowej
+130,indicesProfitsText.profit4.title,Преимущество №4. Заголовок.,Potencjał analityczny
+131,indicesProfitsText.profit4.text|dot,Преимущество №4. Описание.,Wskaźniki służą do analizy sytuacji rynku lub przemysłu
+2.7.2. Описание рынка,,,
+132,indicesAssetsText.title,Заголовок,Rynek indeksów akcji
+133,indicesAssetsText.text|dot,Подзаголовок,W przypadku spadku wartości zapasów są wyłączone z indeksów zapasów i zastąpione bardziej dochodowymi
+2.8. Криптовалюты,,,
+2.8.1. Посадочный экран,,,
+134,cryptoHeaderText.title,Заголовок,Giełda CryptoCurrency
+135,cryptoHeaderText.text|dot,Подзаголовок,Dochodowy handel na dynamicznym rynku walutowym
+136,cryptoProfitsText.profit1.title,Преимущество №1. Заголовок.,Zmniejszone prowizje
+137,cryptoProfitsText.profit1.text|dot,Преимущество №1. Описание.,CryptoCurrence nie jest regulowany przez państwo i nie jest opodatkowany
+138,cryptoProfitsText.profit2.title,Преимущество №2. Заголовок.,Wygodne inwestycje
+139,cryptoProfitsText.profit2.text|dot,Преимущество №2. Описание.,Nie jest wymagana kompleksowa weryfikacja do handlu kryptokuraliaami na platformie Company Name
+140,cryptoProfitsText.profit3.title,Преимущество №3. Заголовок.,Wpływ
+141,cryptoProfitsText.profit3.text|dot,Преимущество №3. Описание.,Możliwość małego wielkości inwestycji do obrotu na rynku kryptów
+142,cryptoProfitsText.profit4.title,Преимущество №4. Заголовок.,Szeroki zasięg
+143,cryptoProfitsText.profit4.text|dot,Преимущество №4. Описание.,Platforma Company Name oferuje duży wybór aktywów dla inwestycji
+2.8.2. Описание рынка,,,
+144,cryptoAssetsText.title,Заголовок,Market CryptoCurrency
+145,cryptoAssetsText.text|dot,Подзаголовок,"Dane osobowe uczestników rynku są bezpiecznie chronione, a ruch transakcji nie może być śledzony"
+3. Торговые условия,,,
+3.1. Посадочный экран,,,
+146,tradingHeaderText.title,Заголовок,Zapoznaj się z podstawowymi koncepcjami handlowymi
+147,tradingHeaderText.text|dot,Подзаголовок,"Ta sekcja zawiera informacje o następujących definicjach: dźwignia, objętość partii, połączenia marginesowego, rozprzestrzeniania się i tak dalej"
+3.2. Калькулятор трейдера,,,
+148,tradingCalculatorText.title,Заголовок,Kalkulator handlowca
+149,tradingCalculatorText.text|dot,Подзаголовок,Przydatny instrument podczas planowania transakcji
+3.3. Расчетные данные,,,
+150,estimationText.offer_1,Инструмент,"Narzędzia <div class=""description"">wskazują instrument finansowy wybrany z listy</div>"
+151,estimationText.offer_2,Цена открытия,"Cena <div class=""description"">Wskaż szacunkową cenę za otwarcie i zamknięcie zamówienia, aby poznać możliwy wynik zamówienia</div>"
+152,estimationText.offer_3,Объем сделки,"Wolumen transakcji<div class=""description"">wskaż dokładny wolumen transakcji</div>"
+153,estimationText.offer_4,"Своп, в пунктах","W punktach <div class=""description"">automatycznie obliczane na podstawie różnicy między ceną sprzedaży a ceną zakupu</div>"
+155,estimationText.offer_5,Маржа в USD,"Margin<div class=""description"">Podane dane to minimalna kwota darmowego depozytu wymagana do transakcji</div>"
+156,estimationText.offer_6,Прибыль в USD,"Zysk <div class=""description"">Wyświetl możliwy zysk zgodnie z parametrami wejściowymi</div>"
+3.4. Пример расчета,,,
+157,estimationText.h2,Заголовок,Zasada pracy
+158,estimationText.ul_title,Подзаголовок,Wstępne dane
+159,estimationText.li_1,Данные №1,Instrument
+160,estimationText.li_2,Данные №2,Cena otwarcia
+161,estimationText.li_3,Данные №3,Tom
+162,estimationText.li_4,Данные №4,"Szerzyć się, w zwrotnica"
+164,estimationText.li_5,Данные №6,Margin w USD
+165,estimationText.li_6,Данные №7,Zysk w USD
+4. О компании,,,
+4.1. О компании + Показатели,,,
+166,aboutHeaderText.title,Слоган-заголовок,Zarób więcej na platformie Company Name!
+167,aboutHeaderText.text|dot,Подзаголовок,Użyj opłacalnych strategii inwestycyjnych i najlepszych instrumentów analitycznych
+168,aboutCounterText.counter1.title,Показатель №1,<span class='indicator-number_1' data-indicator-number='37459'>0</span>
+169,aboutCounterText.counter1.text,Текст показателя №1,Handlowcy na platformie
+170,aboutCounterText.counter2.title,Показатель №2,<span class='indicator-number_2' data-indicator-number='298560'>0</span>
+171,aboutCounterText.counter2.text,Текст показателя №2,Rozkazy dnia
+172,aboutCounterText.counter3.title,Показатель №3,<span class='indicator-number_3' data-indicator-number='235'>0</span>+
+173,aboutCounterText.counter3.text,Текст показателя №3,Instrumenty handlowe
+174,aboutCounterText.counter4.title,Показатель №4,<span class='indicator-number_4' data-indicator-number='258'>0</span>
+175,aboutCounterText.counter4.text,Текст показателя №4,Milion dolarów dziennie
+176,aboutCounterText.counter5.title,Показатель №5,<span class='indicator-number_5' data-indicator-number='4'>0</span>
+177,aboutCounterText.counter5.text,Текст показателя №5,Lat na rynku brokerskim
+4.2. Вы в центре всего,,,
+178,aboutConditionsText.title,Заголовок,Twój idealny broker to Company Name
+179,aboutConditionsText.text|dot,Подзаголовок,Najlepsze warunki handlowe do udanego handlu
+4.3. Цели и задачи компании,,,
+180,aboutGoalsText.h2,Общий заголовок,Nasze cele
+181,aboutGoalsText.goal1.title,Заголовок №1,Cel №1
+182,aboutGoalsText.goal1.text|dot,Описание заголовка №1,Do końca 2022 r. Zwiększ dzienne obroty transakcji o 25%
+183,aboutGoalsText.goal2.title,Заголовок №2,Cel №2
+184,aboutGoalsText.goal2.text|dot,Описание заголовка №2,Przyciągnąć 15 000 aktywnych użytkowników na platformie
+4.4. Больше возможностей для трейдинга,,,
+185,aboutQualityText.title,Заголовок №1,Szerokie możliwości inwestycyjne
+186,aboutQualityText.text,Описание заголовка №1,Ponad 200 instrumentów handlowych na platformie Company Name
+4.5. Наша история,,,
+187,aboutHistoryText.h2,Общий заголовок,Historia
+188,aboutHistoryText.year1.title,2018 год. Заголовок,Początek ścieżki
+189,aboutHistoryText.year1.text|dot,2018 год. Описание,Na początku 2019 r. Otworzyliśmy nasze pierwsze biuro i otrzymaliśmy licencję na przeprowadzenie działalności brokera
+190,aboutHistoryText.year2.title,2019 год. Заголовок,Pierwsze kroki
+191,aboutHistoryText.year2.text|dot,2019 год. Описание,"W 2020 r. Opracowaliśmy program lojalnościowy i przyciąga 13,500 aktywnych użytkowników na platformie"
+192,aboutHistoryText.year3.title,2020 год. Заголовок,Modernizacja
+193,aboutHistoryText.year3.text|dot,2020 год. Описание,W 2021 r. Zaktualizowaliśmy nasz terminal handlowy do aktualnej wersji i zoptymalizowaliśmy witrynę
+194,aboutHistoryText.year4.title,2021 год. Заголовок,Ekspansja
+195,aboutHistoryText.year4.text|dot,2021 год. Описание,W 2022 r. Rozszerzono funkcjonalność platformy i zakres oferowanych instrumentów handlowych
+4.6. Платформа для торговли разработанная для людей.,,,
+196,aboutPlatformText.title,Заголовок,Dołącz i zdobywaj
+197,aboutPlatformText.text|dot,Подзаголовок,Handel na platformie Company Name jest
+198,aboutPlatformText.advantage1,Преимущества №1,Szybka wykonanie zamówień
+199,aboutPlatformText.advantage2,Преимущества №2,Korzystne warunki handlowe
+200,aboutPlatformText.advantage3,Преимущества №3,Różnorodność planów taryfowych
+201,aboutPlatformText.advantage4,Преимущества №4,Dokładne dane o cytatach
+202,aboutPlatformText.advantage5,Преимущества №5,Współpraca z organami regulacyjnymi
+203,aboutPlatformText.advantage6,Преимущества №6,Szeroka gama instrumentów handlowych
+204,aboutPlatformText.advantage7,Преимущества №7,24 godziny na dobę obsługę platformy
+5. Аккредитации и лицензии.,,,
+5.1. Посадочный экран,,,
+205,licensesHeaderText.title,Заголовок,Regulacja działań
+206,licensesHeaderText.text,Подзаголовок к заголовку,Firma Company Name współpracuje z niezawodnymi regulacjami finansowymi.
+5.2. Информация о регуляторах и банках,,,
+207,licensesListText.license1.title,Заголовок №1,FSMA
+208,licensesListText.license1.text,Описание №1,Usługi finansowe i uprawnienia rynków nadzorują operacje na rynku finansowym i jego uczestnikom
+209,licensesListText.license2.title,Заголовок №2,"BlackRock, Inc"
+210,licensesListText.license2.text,Описание №2,Międzynarodowa firma inwestycyjna z siedzibą w Nowym Jorku
+211,licensesListText.license3.title,Заголовок №3,AUSTRAC
+212,licensesListText.license3.text,Описание №3,Australijskie raporty o transakcji i centrum analizy
+213,licensesListText.license4.title,Заголовок №4,MiFid
+214,licensesListText.license4.text,Описание №4,Dyrektywa w sprawie prania anty-pieniędzy Unii Europejskiej
+215,licensesListText.license5.title,Заголовок №5,UBS Group
+216,licensesListText.license5.text,Описание №5,Największa szwajcarska firma finansowa zapewniająca szeroką gamę usług finansowych na całym świecie
+217,licensesListText.license6.title,Заголовок №6,ESMA
+218,licensesListText.license6.text,Описание №6,Europejskie Urząd Nadzoru Rynku Papierów Wartościowych. Ten regulator kontroluje działalność finansową na terytorium Unii Europejskiej
+219,licensesListText.license7.title,Заголовок №7,IFSC
+220,licensesListText.license7.text,Описание №7,Belize International Financial Services Commission
+221,licensesListText.license8.title,Заголовок №8,SCB
+222,licensesListText.license8.text,Описание №8,Komisja Papierów Wartościowych Bahamów
+6. Ошибка 404.,,,
+223,headerText404.title,Заголовок,Błąd 404
+224,headerText404.text,Подзаголовок,"Ta strona nie istnieje, skontaktuj się z obsługą."
+225,headerText404.textMainPage,Вернуться на главную страницу,Powrót na stronę główną
+226,headerText404.textSupport,Служба технической поддержки,Usługa pomocy technicznej
+8. Формы,,,
+8.1. Заголовки форм,,,
+228,formsText.titleEnter,Вход в личный кабинет,Twój obszar osobisty
+229,formsText.titleCallback,Оставить заявку,Prześlij swoją aplikację
+230,formsText.titleTwoauth,Двухэтапная авторизация,Uwierzytelnianie dwustopniowe
+231,buttonText.signup,Регистрация,Rejestracja
+232,fotmsText.titleReminder,Восстановление пароля,Zresetowanie hasła
+8.2. Поля ввода,,,
+233,formsText.labelName,Введите ваше имя,Nazwa *
+234,formsText.placeholderName,Введите ваше имя (placeholder),Twoje imię *
+235,formsText.labelLastName,Введите вашу фамилию,Nazwisko *
+236,formsText.placeholderLastName,Введите вашу фамилию (placeholder),Twoje nazwisko *
+237,formsText.labelMail,Введите ваш E-mail,E-mail *
+238,formsText.placeholderEmail,Введите ваш E-mail (placeholder),Twój email *
+239,formsText.labelPassword,Введите пароль,Hasło *
+240,formsText.placeholderPassword,Введите пароль (placeholder),Wprowadź hasło *
+241,formsText.labelConfirmPassword,Подтвердите пароль,Potwierdź hasło *
+242,formsText.labelPhone,Поле для ввода номера телефона,Numer telefonu *
+243,formsText.placeholderPhone,Поле для ввода номера телефона (placeholder),Twój numer telefonu *
+244,formsText.labelCountry,Выберите страну,Kraj
+245,formsText.placeholderCountry,Выберите страну (placeholder),Wybierz kraj
+246,formsText.labelLanguage,Выберите язык,Język
+247,formsText.placeholderLanguage,Выберите язык (placeholder),Wybierz język
+248,formsText.labelTime,Удобное время для звонка,Czas zadzwonić
+249,formsText.placeholderTime,Удобное время для звонка (placeholder),"Najlepszy czas, aby zadzwonić"
+250,formsText.lableTwoauth,Введите код двухэтапной авторизации,Kod autoryzacji *
+251,formsText.placeholderTwoauth,Введите код двухэтапной авторизации (placeholder),Dwustopniowy kod autoryzacyjny *
+252,formsText.labelPromo,Введите промокод,Kod promocyjny
+253,formsText.placeholderPromo,Введите промокод (placeholder),Wprowadź kod promocyjny
+8.3. Дополнительный текст,,,
+254,formsText.text_required,* - обязательные поля,* - Pole wymagane
+255,formsText.regRecommend,"Для пароля разрешены только латинские буквы, цифры и символы. ","Dozwolone są tylko laty łacińskie, cyfry i symbole. Hasło musi zawierać co najmniej jedną wielką literę, jedną małą literę i jedną liczbę."
+256,formsText.checkboxText,Обработка персональных данных (чекбокс),Zgadzam się na przetwarzanie danych osobowych
+8.4. Уведомления,,,
+257,formsText.titleSuccess,Спасибо за отправку сообщения (заголовок),Dziękujemy za wysłanie wiadomości
+258,formsText.textSuccess,Спасибо за отправку сообщения текст (подзаголовок),Skontaktujemy się z Tobą wkrótce.
+259,formsText.titleError,Ошибка отправки сообщения (заголовок),Błąd wysyłania wiadomości
+260,formsText.textError,Ошибка отправки сообщения текст (подзаголовок),Spróbuj później
+309,formsText.titleAttention,Ошибка (заголовок),Uwaga!
+8.5. Ссылки в форме,,,
+261,formsText.forgotText,Забыли пароль?,Zapomniałeś hasła?
+262,formsText.allreadyText,Уже есть учетная запись,Posiadasz już konto
+9. Навигация,,,
+263,navText.index,Главная,Główny
+264,navText.markets,Рынки,Rynki
+265,navText.about,О компании,O firmie
+266,navText.contacts,Контакты,Łączność
+267,navText.forex,Валюты,Waluty
+268,navText.metals,Металлы,Metale
+269,navText.stocks,Акции,Dyby
+270,navText.commodities,Товары,Surowce
+271,navText.indices,Индексы,Indeksy
+272,navText.crypto,Криптовалюты,Kryptowaluty
+273,navText.trading,Торговые условия,Warunki handlowe
+274,navText.licenses,Аккредитация и лицензии,Akredytacje i licencje
+275,formsText.checkboxAgreement,Пользовательское соглашение,Zgoda użytkownika
+276,formsText.checkboxPolicy,Политика возврата средств,Polityka zwrotów
+293,curLang,Текущий язык,Pl
+10. Кнопки,,,
+277,buttonText.login,Войти,Zaloguj sie
+278,buttonText.btnReg,Зарегистрироваться,Zapisz się
+279,buttonText.enterFormButton,Войти в кабинет,Zaloguj sie
+280,buttonText.btnSend,Отправить,Wysłać
+281,buttonText.btnStartTrade,Начать торговать,Rozpocznij handel
+282,buttonText.btnOpenAcc,Открыть счет,Otworzyć konto
+283,buttonText.btnCallback,Запросить звонок,Poproś o telefon
+284,buttonText.btnLearMore,Узнать больше,Ucz się więcej
+285,buttonText.btn404,Вернуться на главную,Wróć do strony głównej
+286,buttonText.btnSupport,Техническая поддержка,Pomoc techniczna
+287,buttonText.btnPartner,Стать партнером,Zostać partnerem
+11. Контакты,,,
+288,contactsHeaderText.title,Заголовок,"24 godziny na dobę, osobista obsługa użytkowników"
+289,contactsHeaderText.text,Подзаголовок,"Poproś o połączenie, a my skontaktujemy się z Tobą jak najszybciej"
+290,contactsListText.contact2,Наша почта,Nasz e-mail
+291,contactsListText.contact3,Месторасположение,Lokalizacja
+292,contactsListText.contact1,Международный номер,Numer międzynarodowy
+12. Тайтлы,,,
+293,titles.index,index,Company Name - Uzyskaj niezależność finansową
+294,titles.notFound,404,404 - Company Name - Uzyskaj niezależność finansową
+295,titles.licenses,licenses,Akredytacje i licencje - Company Name - Uzyskaj niezależność finansową
+296,titles.reminder,recovery,Odzyskiwanie hasła - Company Name - Uzyskaj niezależność finansową
+297,titles.register,register,Rejestracja - Company Name - Uzyskaj niezależność finansową
+298,titles.login,login,Zaloguj się - Company Name - Uzyskaj niezależność finansową
+299,titles.about,about,O firmie - Company Name - Zarabiaj!
+300,titles.contacts,contacts,"Kontakty - Company Name - 24 godziny na dobę, osobista obsługa użytkowników"
+301,titles.markets,markets,Ponad 200 instrumentów finansowych do obrotu z dowolnego miejsca na świecie
+302,titles.commodities,commodities,Towary - handel towarami z Company Name
+303,titles.crypto,crypto,Cryptourrenki - Handel CFD dla Cryptourrenk wraz z Company Name
+304,titles.forex,forex,Waluty są najbardziej stabilnym i obiecującym rynkiem inwestycji
+305,titles.indices,indices,Wskaźniki - Zostań pro indeksami CFD Trading
+306,titles.metals,metals,Metale - Rentowne obrót kontraktów CFD dla metali
+307,titles.stocks,stocks,Zapasy - Akcyjne oferty online z Company Name
+308,titles.trading,trading,Warunki handlowe - Rachunki handlowe Company Name

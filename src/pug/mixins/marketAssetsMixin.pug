@@ -1,0 +1,11 @@
+mixin marketAssets(title, text, img)
+	section.section.section-assets
+		.wrapper.wrapper_assets
+			.markets-list__item.markets-list__item-assets.markets-list__item-1(data-aos="fade-up" data-aos-delay="300")
+				.markets-content-wrapper
+					h2.markets-list__title.h2-title.left.title-with-decor !{title}
+					p.markets-list__text.left !{text}
+					.markets-list__btns
+						a(href=linkSignup).btn.btn-markets-list  !{buttonText.btnStartTrade[lang]}
+				.markets-img-wrapper
+					img(data-aos="zoom-in" data-aos-delay="450" src=baseDir + "assets/images/markets-list-item-" + img + "_1x.jpg" srcset=baseDir + "assets/images/markets-list-item-" + img + "_1x.jpg 1x, " + baseDir + "assets/images/markets-list-item-" + img + "_2x.jpg 2x" alt="markets-list-item")

@@ -1,0 +1,27 @@
+extends ../../pug/base/base
+
+append vars
+	- lang = "es"
+	- currentPage = 'financial-instruments'
+	- baseDir = lang == "en" ? baseDir : "../"
+	// - baseDir = "../"
+	- title = titles.markets[lang]
+	- link.favicon = baseDir + "favicon/favicon.ico"
+	- link.appleTouchIcon = baseDir + "favicon/apple-touch-icon.png"
+	- link.appleTouchIcon152x152 = baseDir + "favicon/apple-touch-icon-152x152.png"
+	- link.appleTouchIcon167x167 = baseDir + "favicon/apple-touch-icon-167x167.png"
+	- link.appleTouchIcon180x180 = baseDir + "favicon/apple-touch-icon.png"
+	- link.manifest = baseDir + "favicon/site.webmanifest"
+	- meta.themeColor = "#ffffff"
+
+//- prepend styles (если нужно добавить ссылку на стили до базовой)
+append styles
+	link(rel="stylesheet" href=`${baseDir}assets/css/markets.min.css`)
+
+block header
+	include ../../pug/blocks/markets/marketsHeader.pug
+
+block content
+	include ../../pug/blocks/markets/marketsList.pug
+prepend scripts
+	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>

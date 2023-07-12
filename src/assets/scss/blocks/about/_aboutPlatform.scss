@@ -1,0 +1,68 @@
+.h2-title_platform {
+  margin-bottom: rem(8px);
+}
+.platform-text {
+  margin-bottom: rem(40px);
+  color: $grey-5;
+}
+.platform-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: rem(24px);
+  align-items: start;
+  margin-bottom: rem(24px);
+}
+.platform-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: rem(24px);
+}
+.platform-title {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  font-weight: 600;
+  color: $font-dark-01;
+  padding-left: rem(40px);
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: rem(24px);
+    height: rem(24px);
+    background: url("../images/check-icon.svg") no-repeat;
+    background-size: 100%;
+  }
+}
+
+
+@media (max-width: 1160px) {
+  .platform-title {
+    font-size: rem(14px);
+    line-height: rem(20px);
+    padding-left: rem(32px);
+    &::before {
+      top: rem(-2px);
+    }
+  }
+  .platform-row {
+    grid-gap: rem(16px);
+  }
+  .platform-wrapper {
+    margin-bottom: rem(32px);
+  }
+  .platform-text {
+    margin-bottom: rem(24px);
+  }
+}
+@media (max-width: 760px) {
+  .platform-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: rem(16px);
+  }
+  .platform-title {
+    transition-delay: 0.3s !important;
+  }
+}

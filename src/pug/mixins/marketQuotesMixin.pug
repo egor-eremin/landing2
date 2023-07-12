@@ -1,0 +1,16 @@
+mixin marketQuotes(attr)
+	section.section.section-table
+		.main-decor
+			.scroll-decor.table-decor_tl
+		.wrapper
+			h2.section-table__title.h2-title !{commonMarketsText.title_table[lang]}
+			.table-wrapper
+				.tableinsert(attr=attr)
+			.footnote !{commonMarketsText.footnote[lang]}
+	section.section.section-graph
+		.main-decor
+			.scroll-decor.graph-decor_br
+		.wrapper
+			h2.section-graph__title.h2-title !{commonMarketsText.title_graph[lang]}
+			.graph-wrapper
+				#tradeview(data-item=attr height="650")

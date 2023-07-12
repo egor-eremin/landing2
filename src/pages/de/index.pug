@@ -1,0 +1,40 @@
+extends ../../pug/base/base
+
+append vars
+	- lang = "de"
+	- currentPage = 'index'
+	- baseDir = lang == "en" ? baseDir : "../"
+	//- baseDir =  "../"
+	- title = titles.index[lang]
+	- link.favicon = baseDir + "favicon/favicon.ico"
+	- link.appleTouchIcon = baseDir + "favicon/apple-touch-icon.png"
+	- link.appleTouchIcon152x152 = baseDir + "favicon/apple-touch-icon-152x152.png"
+	- link.appleTouchIcon167x167 = baseDir + "favicon/apple-touch-icon-167x167.png"
+	- link.appleTouchIcon180x180 = baseDir + "favicon/apple-touch-icon.png"
+	- link.manifest = baseDir + "favicon/site.webmanifest"
+	- meta.themeColor = "#ffffff"
+
+//- prepend styles (если нужно добавить ссылку на стили до базовой)
+append styles
+	link(rel="stylesheet" href=`${baseDir}assets/css/index.min.css`)
+
+block header
+	include ../../pug/blocks/index/indexHeader.pug
+
+block content
+	include ../../pug/blocks/index/indexBenefits.pug
+	//include ../../pug/blocks/index/indexAdvantages.pug
+	include ../../pug/blocks/index/indexSteps.pug
+	include ../../pug/blocks/index/indexWidget
+	include ../../pug/blocks/index/indexNews.pug
+	include ../../pug/blocks/index/indexStartEarning
+	include ../../pug/blocks/index/indexOnlineConsultant
+	include ../../pug/blocks/index/indexAccounts.pug
+	//include ../../pug/blocks/index/indexEducation
+	//include ../../pug/blocks/index/indexDocs.pug
+	//include ../../pug/blocks/index/indexToolOverview
+	//include ../../pug/blocks/index/indexFaqPug
+	include ../../pug/blocks/forms/saccessPopup.pug
+
+append scripts
+	script(src= baseDir + "sender.php?id=online-consult-form")

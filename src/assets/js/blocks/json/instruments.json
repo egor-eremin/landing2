@@ -1,0 +1,1439 @@
+{
+    "Forex": [{
+            "id": "AUD/CAD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -2.03,
+            "swapBuy": -1.82,
+            "commission": 0.00004,
+            "quotationCurrency": "CAD"
+        },
+        {
+            "id": "AUD/CHF",
+            "name": "",
+            "type": "standard",
+            "swapSell": -4.34,
+            "swapBuy": 0.48,
+            "commission": 0.00004,
+            "quotationCurrency": "CHF"
+        },
+        {
+            "id": "AUD/JPY",
+            "name": "",
+            "type": "standard",
+            "swapSell": -4.02,
+            "swapBuy": 0.27,
+            "commission": 0.00004,
+            "quotationCurrency": "JPY"
+        },
+        {
+            "id": "AUD/NZD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -1.43,
+            "swapBuy": -2.9,
+            "commission": 0.00004,
+            "quotationCurrency": "NZD"
+        },
+        {
+            "id": "AUD/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -2,
+            "swapBuy": -1.82,
+            "commission": 0.00004,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "CAD/CHF",
+            "name": "",
+            "type": "standard",
+            "swapSell": -4.13,
+            "swapBuy": 0.27,
+            "commission": 0.00004,
+            "quotationCurrency": "CHF"
+        },
+        {
+            "id": "CAD/JPY",
+            "name": "",
+            "type": "standard",
+            "swapSell": -3.41,
+            "swapBuy": -0.38,
+            "commission": 0.00004,
+            "quotationCurrency": "JPY"
+        },
+        {
+            "id": "CHF/JPY",
+            "name": "",
+            "type": "standard",
+            "swapSell": -1.18,
+            "swapBuy": -2.55,
+            "commission": 0.00004,
+            "quotationCurrency": "JPY"
+        },
+        {
+            "id": "EUR/AUD",
+            "name": "",
+            "type": "standard",
+            "swapSell": 0.61,
+            "swapBuy": -4.26,
+            "commission": 0.00004,
+            "quotationCurrency": "AUD"
+        },
+        {
+            "id": "EUR/CAD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -0.03,
+            "swapBuy": -3.72,
+            "commission": 0.00004,
+            "quotationCurrency": "CAD"
+        },
+        {
+            "id": "EUR/CHF",
+            "name": "",
+            "type": "standard",
+            "swapSell": -2.69,
+            "swapBuy": -0.97,
+            "commission": 0.00004,
+            "quotationCurrency": "CHF"
+        },
+        {
+            "id": "EUR/GBP",
+            "name": "",
+            "type": "standard",
+            "swapSell": -0.92,
+            "swapBuy": -2.79,
+            "commission": 0.00004,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "EUR/JPY",
+            "name": "",
+            "type": "standard",
+            "swapSell": -1.69,
+            "swapBuy": -1.94,
+            "commission": 0.00004,
+            "quotationCurrency": "JPY"
+        },
+        {
+            "id": "EUR/NZD",
+            "name": "",
+            "type": "standard",
+            "swapSell": 0.8,
+            "swapBuy": -4.5,
+            "commission": 0.00004,
+            "quotationCurrency": "NZD"
+        },
+        {
+            "id": "EUR/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": 0.37,
+            "swapBuy": -3.99,
+            "commission": 0.00004,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "GBP/AUD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -0.39,
+            "swapBuy": -3.35,
+            "commission": 0.00004,
+            "quotationCurrency": "AUD"
+        },
+        {
+            "id": "GBP/CAD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -1.04,
+            "swapBuy": -2.83,
+            "commission": 0.00004,
+            "quotationCurrency": "CAD"
+        },
+        {
+            "id": "GBP/CHF",
+            "name": "",
+            "type": "standard",
+            "swapSell": -3.15,
+            "swapBuy": -0.59,
+            "commission": 0.00004,
+            "quotationCurrency": "CHF"
+        },
+        {
+            "id": "GBP/JPY",
+            "name": "",
+            "type": "standard",
+            "swapSell": -1.89,
+            "swapBuy": -1.96,
+            "commission": 0.00004,
+            "quotationCurrency": "JPY"
+        },
+        {
+            "id": "GBP/NZD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -0.19,
+            "swapBuy": -3.61,
+            "commission": 0.00004,
+            "quotationCurrency": "NZD"
+        },
+        {
+            "id": "GBP/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -0.52,
+            "swapBuy": -3.14,
+            "commission": 0.00004,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "NZD/CAD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -2.81,
+            "swapBuy": -1.15,
+            "commission": 0.00004,
+            "quotationCurrency": "CAD"
+        },
+        {
+            "id": "NZD/CHF",
+            "name": "",
+            "type": "standard",
+            "swapSell": -5.26,
+            "swapBuy": 0.86,
+            "commission": 0.00004,
+            "quotationCurrency": "CHF"
+        },
+        {
+            "id": "NZD/JPY",
+            "name": "",
+            "type": "standard",
+            "swapSell": -4.28,
+            "swapBuy": 0.49,
+            "commission": 0.00004,
+            "quotationCurrency": "JPY"
+        },
+        {
+            "id": "NZD/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -2.75,
+            "swapBuy": -1.1,
+            "commission": 0.00004,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "USD/CAD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -2.21,
+            "swapBuy": -1.44,
+            "commission": 0.00004,
+            "quotationCurrency": "CAD"
+        },
+        {
+            "id": "USD/CHF",
+            "name": "",
+            "type": "standard",
+            "swapSell": -4.01,
+            "swapBuy": 0.36,
+            "commission": 0.00004,
+            "quotationCurrency": "CHF"
+        },
+        {
+            "id": "USD/JPY",
+            "name": "",
+            "type": "standard",
+            "swapSell": -3.23,
+            "swapBuy": -0.52,
+            "commission": 0.00004,
+            "quotationCurrency": "JPY"
+        },
+        {
+            "id": "USD/RUB",
+            "name": "",
+            "type": "standard",
+            "swapSell": -0.13,
+            "swapBuy": -37.06,
+            "commission": 0.00004,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "USD/SGD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -3.24,
+            "swapBuy": -1.92,
+            "commission": 0.00004,
+            "quotationCurrency": "SGD"
+        }
+    ],
+    "Metals": [{
+        "id": "XAU/USD",
+        "name": "",
+        "type": "metals",
+        "swapSell": "-1.11",
+        "swapBuy": "-4.63",
+        "commission": 0.00004,
+        "quotationCurrency": "USD"
+    }],
+    "Stocks": [{
+            "id": "Alcoa Corp",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.22,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Altaba (Yahoo)",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.28,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Apple Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.79,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Admiral Group",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.12,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Adidas",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.97,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "American International Group Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.44,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Airbus Group",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.43,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Amazon.com Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -5.32,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Tatneft",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.28,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Aviva PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.03,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "American Express Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.51,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Boeing Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -1.04,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Bank of America Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.15,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Barclays PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.02,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "British American Tobacco",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.3,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Bayer",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.66,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Bankia",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.01,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "BMW",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.57,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Danone",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.39,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Burberry Group",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.1,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Centrica PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.02,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Caterpillar Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.62,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Severstal",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -2.61,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "Continental",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -1.24,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Cisco Systems Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.2,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Chevron Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.77,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "EI du Pont de Nemours and Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.48,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Walt Disney Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.71,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Deutsche Post",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.21,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Deutsche Telekom",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.11,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "eBay Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.2,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Freeport-McMoran Copper & Gold Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.1,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "FedEx Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.84,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Total",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.32,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Gas Natural SDG",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.12,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Gazprom",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -1.01,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "General Electric Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.21,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Glencore PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.02,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Norilskiy Nickel",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -2.53,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "Alphabet Inc C",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -5.28,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "GlaxoSmitdKline PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.1,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "tde Goodyear Tire & Rubber Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.69,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Halliburton Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.36,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Home Depot Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.89,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Henkel & Co KGaA",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.75,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "HP Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.1,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "International Business Machines",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -1.1,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Intel Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.24,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "International Paper Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.35,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Johnson & Johnson",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.76,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "JPMorgan Chase & Co",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.55,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Coca-Cola Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.27,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Kraton Performance Polymers",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.75,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Legal & General Group PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.02,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Lukoil",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -2.85,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "Lloyds Banking Group PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.01,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Mapfre",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.02,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Moet Henenssy Louis Vuitton",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -1.15,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "McDonalds Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.8,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Magnit",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.25,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "3M Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -1.17,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Altria Group",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.45,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Merck & Company Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.4,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Microsoft Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.41,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Mechel preferred",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -2.54,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "L'Oreal",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -1.11,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Oracle Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.26,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "PepsiCo Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.67,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Pfizer Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.21,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Procter & Gamble Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.56,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Polus Zoloto",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -2.55,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "Prudential PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.1,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Qualcomm Incorporated",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.42,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Royal Bank of Scotland Group PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.01,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Repsol",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.09,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Renault",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.56,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Rosneft",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -2.59,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "Rolls-Royce Holdings",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.05,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Rostelecom",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -2.38,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "Sberbank",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -1.09,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "J Sainsbury PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.02,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Starbucks Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.38,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Gazprom Neft",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -1.51,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "Siemens",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.77,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Schneider Electric",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.44,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "AT&T Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.27,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Telefonica SA",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.06,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "Tesco PLC",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.01,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "Tesla",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.34,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Peugeot",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.11,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "United Parcel Service Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.75,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Uralkaliy",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -2.74,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "United Technologies Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.72,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Visa Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.53,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Volkswagen",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.96,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "VTB Bank",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -2.49,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "Verizon Communications Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.35,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Wells Fargo & Company",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.35,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Wal-Mart Stores Inc",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.45,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Exxon Mobil Corporation",
+            "name": "",
+            "type": "stocks",
+            "swapSell": -0.57,
+            "swapBuy": 0,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        }
+    ],
+    "Commodities": [{
+            "id": "Brent Crude Oil",
+            "name": "",
+            "type": "commodities",
+            "swapSell": 1.09,
+            "swapBuy": -3.56,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "WTI Crude Oil",
+            "name": "",
+            "type": "commodities",
+            "swapSell": 1.9,
+            "swapBuy": -3.56,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Natural Gas",
+            "name": "",
+            "type": "commodities",
+            "swapSell": 0.05,
+            "swapBuy": -0.38,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        }
+    ],
+    "Indices": [{
+            "id": "CAC40",
+            "name": "",
+            "type": "indices",
+            "swapSell": -0.42,
+            "swapBuy": -0.36,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "DAX30",
+            "name": "",
+            "type": "indices",
+            "swapSell": -1.88,
+            "swapBuy": -1.13,
+            "commission": 0.02,
+            "quotationCurrency": "EUR"
+        },
+        {
+            "id": "FTSE100",
+            "name": "",
+            "type": "indices",
+            "swapSell": -2,
+            "swapBuy": -3,
+            "commission": 0.02,
+            "quotationCurrency": "GBP"
+        },
+        {
+            "id": "DJI30",
+            "name": "",
+            "type": "indices",
+            "swapSell": -2,
+            "swapBuy": -3.1,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "NDX100",
+            "name": "",
+            "type": "indices",
+            "swapSell": -2.1,
+            "swapBuy": -3,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "SPX500",
+            "name": "",
+            "type": "indices",
+            "swapSell": -2,
+            "swapBuy": -3.2,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "NKY225",
+            "name": "",
+            "type": "indices",
+            "swapSell": -0.9,
+            "swapBuy": -2.5,
+            "commission": 0.02,
+            "quotationCurrency": "JPY"
+        },
+        {
+            "id": "MCX",
+            "name": "",
+            "type": "indices",
+            "swapSell": -2.2,
+            "swapBuy": -3,
+            "commission": 0.02,
+            "quotationCurrency": "RUB"
+        },
+        {
+            "id": "RTS",
+            "name": "",
+            "type": "indices",
+            "swapSell": -2,
+            "swapBuy": -3.2,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        }
+    ],
+    "ETFs": [{
+            "id": "iPath S&P 500",
+            "name": "",
+            "type": "etf",
+            "swapSell": -2,
+            "swapBuy": -3.2,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "Samsung",
+            "name": "",
+            "type": "etf",
+            "swapSell": -1.9,
+            "swapBuy": -3.1,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        }
+    ],
+    "Cryptocurrencies": [{
+            "id": "BTC/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "XRP/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "LTC/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "BCH/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "ZEC/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "XMR/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "ETH/USD",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "USD/BTC",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "USD/XRP",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "USD/LTC",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "USD/BCH",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "USD/ZEC",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "USD/XMR",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        },
+        {
+            "id": "USD/ETH",
+            "name": "",
+            "type": "standard",
+            "swapSell": -50,
+            "swapBuy": -3.5,
+            "commission": 0.02,
+            "quotationCurrency": "USD"
+        }
+    ]
+}

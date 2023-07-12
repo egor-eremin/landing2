@@ -1,0 +1,51 @@
+mixin account(i)
+	.account-list__item(class=["account-list__item"+i])
+		p.accounts-list__text.mobile !{indexAccountsText["account" + i].text[lang]}
+		.account-content-wrapper
+			.account-header
+				//h3.accounts-list__title.h3-title !{indexAccountsText["account" + i].title[lang]}
+				.indicator-wrapper
+					.indicator-item
+						if i == 1
+							.indicator-title $150
+						if i == 2
+							.indicator-title $1 000
+						if i == 3
+							.indicator-title $10 000
+						p.indicator-text !{indexAccountsText.account_condition_1[lang]}
+					.indicator-item
+						if i == 1
+							.indicator-title 1:100
+						if i == 2
+							.indicator-title 1:500
+						if i == 3
+							.indicator-title 1:500
+						p.indicator-text !{indexAccountsText.account_condition_2[lang]}
+					a(href=linkSignup).btn.btn-accounts.desctop !{buttonText.btnOpenAcc[lang]}
+			.accounts-list__conditions
+				if i == 1
+					//.accounts-conditions-item.check !{indexAccountsText.account_condition_1[lang]}: $150
+					//.accounts-conditions-item.check !{indexAccountsText.account_condition_2[lang]}: <span>1:100</span>
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_3[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_4[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_8[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_11[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_12[lang]}
+				else if i == 2
+					//.accounts-conditions-item.check !{indexAccountsText.account_condition_1[lang]}: $1 000
+					//.accounts-conditions-item.check !{indexAccountsText.account_condition_2[lang]}: <span>1:500</span>
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_3[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_4[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_8[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_11[lang]}
+					.accounts-conditions-item.hide !{indexAccountsText.account_condition_12[lang]}
+				else if i == 3
+					//.accounts-conditions-item.check !{indexAccountsText.account_condition_1[lang]}: $10 000
+					//.accounts-conditions-item.check !{indexAccountsText.account_condition_2[lang]}: <span>1:500</span>
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_3[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_4[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_8[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_11[lang]}
+					.accounts-conditions-item.check !{indexAccountsText.account_condition_12[lang]}
+		a(href=linkSignup).btn.btn-accounts.mobile !{buttonText.btnOpenAcc[lang]}
+

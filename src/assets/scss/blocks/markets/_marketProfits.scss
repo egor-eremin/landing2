@@ -1,0 +1,158 @@
+.profits-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: rem(24px);
+}
+.icon-wrapper {
+  position: relative;
+  //width: rem(80px);
+  //height: rem(80px);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+.icon-wrapper_1 {
+  &.icon-wrapper_currencies {
+    background-image: url("../images/icon-currencies-1.svg");
+  }
+  &.icon-wrapper_metals {
+    background-image: url("../images/icon-metals-1.svg");
+  }
+  &.icon-wrapper_stocks {
+    background-image: url("../images/icon-stocks-1.svg");
+  }
+  &.icon-wrapper_commodities {
+    background-image: url("../images/icon-commodities-1.svg");
+  }
+  &.icon-wrapper_indices {
+    background-image: url("../images/icon-indices-1.svg");
+  }
+  &.icon-wrapper_cryptocurrencies {
+    background-image: url("../images/icon-cryptocurrencies-1.svg");
+  }
+}
+.icon-wrapper_2 {
+  &.icon-wrapper_currencies {
+    background-image: url("../images/icon-currencies-2.svg");
+  }
+  &.icon-wrapper_metals {
+    background-image: url("../images/icon-metals-2.svg");
+  }
+  &.icon-wrapper_stocks {
+    background-image: url("../images/icon-stocks-2.svg");
+  }
+  &.icon-wrapper_commodities {
+    background-image: url("../images/icon-commodities-2.svg");
+  }
+  &.icon-wrapper_indices {
+    background-image: url("../images/icon-indices-2.svg");
+  }
+  &.icon-wrapper_cryptocurrencies {
+    background-image: url("../images/icon-cryptocurrencies-2.svg");
+  }
+}
+.icon-wrapper_3 {
+  &.icon-wrapper_currencies {
+    background-image: url("../images/icon-currencies-3.svg");
+  }
+  &.icon-wrapper_metals {
+    background-image: url("../images/icon-metals-3.svg");
+  }
+  &.icon-wrapper_stocks {
+    background-image: url("../images/icon-stocks-3.svg");
+  }
+  &.icon-wrapper_commodities {
+    background-image: url("../images/icon-commodities-3.svg");
+  }
+  &.icon-wrapper_indices {
+    background-image: url("../images/icon-indices-3.svg");
+  }
+  &.icon-wrapper_cryptocurrencies {
+    background-image: url("../images/icon-cryptocurrencies-3.svg");
+  }
+}
+.icon-wrapper_4 {
+  &.icon-wrapper_currencies {
+    background-image: url("../images/icon-currencies-4.svg");
+  }
+  &.icon-wrapper_metals {
+    background-image: url("../images/icon-metals-4.svg");
+  }
+  &.icon-wrapper_stocks {
+    background-image: url("../images/icon-stocks-4.svg");
+  }
+  &.icon-wrapper_commodities {
+    background-image: url("../images/icon-commodities-4.svg");
+  }
+  &.icon-wrapper_indices {
+    background-image: url("../images/icon-indices-4.svg");
+  }
+  &.icon-wrapper_cryptocurrencies {
+    background-image: url("../images/icon-cryptocurrencies-4.svg");
+  }
+}
+.icon-wrapper_5 {
+  &.icon-wrapper_currencies {
+    background-image: url("../images/icon-currencies-5.svg");
+  }
+  &.icon-wrapper_metals {
+    background-image: url("../images/icon-metals-5.svg");
+  }
+  &.icon-wrapper_stocks {
+    background-image: url("../images/icon-stocks-5.svg");
+  }
+  &.icon-wrapper_commodities {
+    background-image: url("../images/icon-commodities-5.svg");
+  }
+  &.icon-wrapper_indices {
+    background-image: url("../images/icon-indices-5.svg");
+  }
+  &.icon-wrapper_cryptocurrencies {
+    background-image: url("../images/icon-cryptocurrencies-5.svg");
+  }
+}
+.icon-wrapper_6 {
+  &.icon-wrapper_currencies {
+    background-image: url("../images/icon-currencies-6.svg");
+  }
+  &.icon-wrapper_metals {
+    background-image: url("../images/icon-metals-6.svg");
+  }
+  &.icon-wrapper_stocks {
+    background-image: url("../images/icon-stocks-6.svg");
+  }
+  &.icon-wrapper_commodities {
+    background-image: url("../images/icon-commodities-6.svg");
+  }
+  &.icon-wrapper_indices {
+    background-image: url("../images/icon-indices-6.svg");
+  }
+  &.icon-wrapper_cryptocurrencies {
+    background-image: url("../images/icon-cryptocurrencies-6.svg");
+  }
+}
+.section-profits {
+  padding-top: rem(104px);
+}
+
+// ADAPTIVE
+@media (max-width: 1160px) {
+  .section-profits {
+    padding-top: rem(40px);
+  }
+}
+@media (max-width: 900px) {
+  .profits-list {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: rem(24px) rem(16px);
+  }
+  .profits-list-item {
+    transition-delay: 0.3s !important;
+  }
+}
+//@media (max-width: 640px) {
+//  .profits-list {
+//    grid-template-columns: 1fr;
+//  }
+//}

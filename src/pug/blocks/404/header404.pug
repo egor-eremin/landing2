@@ -1,0 +1,10 @@
+include ../nav.pug
+header.page-header.page-header_404.page-header_other-page
+	.wrapper.wrapper-header.wrapper-header_other-page.wrapper-header_404.form-wrapper(data-aos="" data-aos-delay="300")
+		.text-header-wrapper.text-header-wrapper_404
+			img.img-404(src=baseDir + "assets/images/img-404.png" alt="404 img" data-aos="fade" data-aos-delay="300")
+			h1.h1-title.h1-title_404.center !{headerText404.title[lang]}
+			p.text-404.center !{headerText404.text[lang]}
+			.form-links.form-links_404
+				a(href="index.html").form-links_item !{headerText404.textMainPage[lang]}
+				a(href="contacts.html").form-links_item !{headerText404.textSupport[lang]}

@@ -1,0 +1,65 @@
+nav.nav(class="nav_" + lang)
+	.nav-wrapper.wrapper
+		a.nav-logo(href="index.html")
+			img(src=baseDir + brandlinks.logo, alt="logo" title="logo" width="37" height="43")
+		ul.nav-list(class="nav-list_" + lang)
+			li.nav-list__item.nav-list__item_with-sub-menu(class={
+				active:
+						currentPage == "financial-instruments" ||
+						currentPage == "currencies" ||
+						currentPage == "metals" ||
+						currentPage == "stocks" ||
+						currentPage == "commodities" ||
+						currentPage == "indices" ||
+						currentPage == "cryptocurrencies"
+			})
+				a.nav-list__link.nav-list__link_markets.icon-arrow-menu(href="financial-instruments.html") !{navText.markets[lang]}
+					.arrow-menu
+						| <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+						| <path d="M7.06862 0.5C7.78135 0.5 8.13828 1.36172 7.63431 1.86569L4.56566 4.93432C4.25324 5.24674 3.74671 5.24673 3.43429 4.93431L0.365679 1.86569C-0.138291 1.36171 0.218641 0.500001 0.931365 0.500001L7.06862 0.5Z" fill="#767676"/>
+						| </svg>
+				ul.sub-nav-list
+					li.sub-nav-list__item(class={active: currentPage == "currencies"}): a.sub-nav-list__link(href="currencies.html") !{navText.forex[lang]}
+					li.sub-nav-list__item(class={active: currentPage == "metals"}): a.sub-nav-list__link(href="metals.html") !{navText.metals[lang]}
+					li.sub-nav-list__item(class={active: currentPage == "stocks"}): a.sub-nav-list__link(href="stocks.html") !{navText.stocks[lang]}
+					li.sub-nav-list__item(class={active: currentPage == "commodities"}): a.sub-nav-list__link(href="commodities.html") !{navText.commodities[lang]}
+					li.sub-nav-list__item(class={active: currentPage == "indices"}): a.sub-nav-list__link(href="indices.html") !{navText.indices[lang]}
+					li.sub-nav-list__item(class={active: currentPage == "cryptocurrencies"}): a.sub-nav-list__link(href="cryptocurrencies.html") !{navText.crypto[lang]}
+			li.nav-list__item(class={active : currentPage == "trading-conditions"})
+				a.nav-list__link(href="trading-conditions.html") !{navText.trading[lang]}
+			li.nav-list__item.nav-list__item_with-sub-menu(class={
+				active:
+						currentPage == "about-company" ||
+						currentPage == "licenses"
+			})
+				a.nav-list__link.icon-arrow-menu(href="about-company.html") !{navText.about[lang]}
+					.arrow-menu
+						| <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+						| <path d="M7.06862 0.5C7.78135 0.5 8.13828 1.36172 7.63431 1.86569L4.56566 4.93432C4.25324 5.24674 3.74671 5.24673 3.43429 4.93431L0.365679 1.86569C-0.138291 1.36171 0.218641 0.500001 0.931365 0.500001L7.06862 0.5Z" fill="#767676"/>
+						| </svg>
+				ul.sub-nav-list.sub-nav-list_license
+					li.sub-nav-list__item(class={active: currentPage == "licenses"})
+						a.sub-nav-list__link(href="licenses.html") !{navText.licenses[lang]}
+			li.nav-list__item(class={active : currentPage == "contacts"})
+				a.nav-list__link(href="contacts.html") !{navText.contacts[lang]}
+			li.nav-list__item.nav-list__item_with-sub-menu.nav-list__item_lang
+				.nav-list__link.nav-list__link-lang.icon-arrow-menu(class= "nav-list__link-lang_" + lang) !{languageText[lang]}
+					.arrow-menu
+						| <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+						| <path d="M7.06862 0.5C7.78135 0.5 8.13828 1.36172 7.63431 1.86569L4.56566 4.93432C4.25324 5.24674 3.74671 5.24673 3.43429 4.93431L0.365679 1.86569C-0.138291 1.36171 0.218641 0.500001 0.931365 0.500001L7.06862 0.5Z" fill="#767676"/>
+						| </svg>
+				ul.sub-nav-list.sub-nav-list_lang
+					li.sub-nav-list__item.sub-nav-list__item_lang(class={active: lang == "en"}): a.sub-nav-list__link.sub-nav-list__link-lang.sub-nav-list__link-lang_en(href=baseDir + currentPage + ".html") !{languageText_2.en}
+					li.sub-nav-list__item.sub-nav-list__item_lang(class={active: lang == "ru"}): a.sub-nav-list__link.sub-nav-list__link-lang.sub-nav-list__link-lang_ru(href=baseDir + "ru/" + currentPage + ".html") !{languageText_2.ru}
+					li.sub-nav-list__item.sub-nav-list__item_lang(class={active: lang == "es"}): a.sub-nav-list__link.sub-nav-list__link-lang.sub-nav-list__link-lang_es(href=baseDir + "es/" + currentPage + ".html") !{languageText_2.es}
+					li.sub-nav-list__item.sub-nav-list__item_lang(class={active: lang == "de"}): a.sub-nav-list__link.sub-nav-list__link-lang.sub-nav-list__link-lang_de(href=baseDir + "de/" + currentPage + ".html") !{languageText_2.de}
+					li.sub-nav-list__item.sub-nav-list__item_lang(class={active: lang == "fr"}): a.sub-nav-list__link.sub-nav-list__link-lang.sub-nav-list__link-lang_fr(href=baseDir + "fr/" + currentPage + ".html") !{languageText_2.fr}
+					li.sub-nav-list__item.sub-nav-list__item_lang(class={active: lang == "it"}): a.sub-nav-list__link.sub-nav-list__link-lang.sub-nav-list__link-lang_it(href=baseDir + "it/" + currentPage + ".html") !{languageText_2.it}
+					//li.sub-nav-list__item.sub-nav-list__item_lang(class={active: lang == "pl"}): a.sub-nav-list__link.sub-nav-list__link-lang.sub-nav-list__link-lang_pl(href=baseDir + "pl/" + currentPage + ".html") !{languageText_2.pl}
+					li.sub-nav-list__item.sub-nav-list__item_lang(class={active: lang == "zh"}): a.sub-nav-list__link.sub-nav-list__link-lang.sub-nav-list__link-lang_zh(href=baseDir + "zh/" + currentPage + ".html") !{languageText_2.zh}
+			li.nav-list__item.nav-list__item_only-mobile
+				a(href= linkLogin).btn.btn_white.btn-login.btn-nav_mobile !{buttonText.login[lang]}
+				a(href= linkSignup).btn.btn-register.btn-nav_mobile !{buttonText.signup[lang]}
+		.nav-btns
+			a(href= linkLogin).btn.btn-header.btn_white.btn-login !{buttonText.login[lang]}
+			a(href= linkSignup).btn.btn-header.btn_black.btn-register !{buttonText.signup[lang]}

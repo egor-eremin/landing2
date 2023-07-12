@@ -1,0 +1,502 @@
+// Чтобы активировать светлую версию калькулятора,
+// раскомментируй переменные для светлой версии калькулятора
+// и закомментируй переменные для темной версии калькулятора
+
+// переменные для светлой версии калькулятора
+$clc-colorMain: $color-black;
+$clc-colorSecond: transparent;
+$clc-colorBgCalc: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0.72%, rgba(196, 196, 196, 0) 100%);
+$clc-colorBgField: rgba(255, 255, 255, 1);
+$clc-colorBorderField: rgba(216, 216, 216, 1);
+$clc-colorText: $color-black;
+$clc-colorTextCaption: $color-black;
+$clc-colorTextTableTitles: $color-black;
+
+
+// Чтобы активировать темную версию калькулятора,
+// раскомментируй переменные для темной версии калькулятора
+// и закомментируй переменные для светлой версии калькулятора
+
+// переменные для темной версии калькулятора
+// $clc-colorMain: rgba(233, 78, 101, 1);
+// $clc-colorSecond: rgba(27, 75, 100, 1);
+// $clc-colorBgCalc: rgba(41, 41, 41, 1);
+// $clc-colorBgField: rgba(29, 26, 26, 1);
+// $clc-colorBorderField: rgba(48, 48, 48, 1);
+// $clc-colorText: rgba(255, 255, 255, 1);
+// $clc-colorTextCaption: rgba(229, 229, 229, 1);
+// $clc-colorTextTableTitles: rgba(255, 255, 255, 1);
+
+
+.clc-calculator {
+    width: 100%;
+    position: relative;
+}
+.clc-calculator__heading {
+    margin-bottom: rem(20px);
+}
+.clc-calculator__section {
+    margin-bottom: rem(32px);
+    position: relative;
+}
+.clc-accountSettings {
+    margin-bottom: rem(36px);
+    position: relative;
+}
+.clc-positionParameters {
+    margin-bottom: rem(40px);
+}
+.clc-calculator__row {
+    display: flex;
+}
+
+.clc-calculator__block {
+    width: 100%;
+    margin-right: rem(24px);
+    color: inherit;
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+.clc-calculator__block--select {
+    //max-width: rem(259px);
+}
+.clc-calculator__block--control {
+    max-width: rem(204px);
+}
+.clc-calculator__block--radio {
+    max-width: rem(153px);
+}
+
+.clc-caption {
+    font-size: rem(14px);
+    line-height: rem(20px);
+    margin-bottom: rem(4px);
+    text-align: left;
+}
+.clc-arrowSelect {
+    position: absolute;
+    top: rem(12px);
+    right: rem(16px);
+    pointer-events: none;
+    transition: .2s;
+    width: rem(24px);
+    height: rem(24px);
+    background: url("../images/input-arrow.svg") no-repeat;
+    background-size: 100%;
+}
+
+.clc-selectBox {
+    position: relative;
+    &:active {
+        & .clc-selectBox__submenu {
+            transform: scaleY(1);
+        }
+    }
+}
+.clc-selectBox__input {
+    height: rem(48px);
+    width: 100%;
+    padding: rem(16px) rem(14px);
+    font-size: rem(14px);
+    line-height: rem(20px);
+    font-weight: 400;
+    cursor: pointer;
+    background: $color-white;
+    border-radius: rem(12px);
+    color: $font-dark-01;
+    border: 1px solid $grey-2;
+    &:focus {
+        border-color: $color-button;
+        & ~ .clc-selectBox__submenu {
+            transform: scaleY(1);
+
+        }
+        & ~ .clc-arrowSelect {
+            transform: rotate(-180deg);
+        }
+    }
+}
+.clc-selectBox__submenu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 10;
+    width: 100%;
+    max-height: rem(140px);
+    //border-radius: rem(12px);
+    background: $color-white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: .2s;
+    list-style: none;
+    border: 1px solid $color-button;
+    border-radius: rem(12px);
+    margin-top: rem(8px);
+    padding: rem(24px) rem(16px);
+    li {
+        cursor: pointer;
+        transition: 0.3s ease-out;
+        position: relative;
+        font-weight: 600;
+        font-size: rem(14px);
+        line-height: rem(24px);
+        color: $font-dark-01;
+        margin-bottom: rem(16px);
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &:hover {
+            color: $color-button;
+        }
+    }
+}
+
+.clc-controlBox {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border: 1px solid $grey-2;
+    border-radius: rem(12px);
+}
+.clc-controlBox__input {
+    width: calc(100% - 6.25rem);
+    max-width: 100%;
+    height: rem(48px);
+    padding: rem(14px) 0px;
+    color: $font-dark-01;
+    font-size: rem(14px);
+    line-height: rem(20px);
+    font-weight: 400;
+    background: transparent;
+    text-align: center;
+    &:focus {
+        outline: none;
+    }
+}
+.clc-controlBox__button {
+    flex-grow: 1;
+    transition: .2s;
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    &::before,
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: #FFD48D;
+        transition: .3s ease-out;
+    }
+    &:focus, &:hover {
+        outline: none;
+        &::before, &::after {
+            background: $color-button;
+        }
+    }
+}
+.clc-controlBox__button--max {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    &::before {
+        width: rem(2px);
+        height: rem(12px);
+    }
+    &::after {
+        height: rem(2px);
+        width: rem(12px);
+    }
+}
+.clc-controlBox__button--min {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    &::before {
+        width: rem(12px);
+        height: rem(2px);
+    }
+}
+
+.clc-radioBox {
+    display: flex;
+    align-items: center;
+    height: rem(48px);
+}
+.clc-radioBox__input {
+    margin-right: rem(8px);
+    cursor: pointer;
+    flex-shrink: 0;
+    border-radius: 50%;
+
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    &:last-of-type {
+        margin-left: auto;
+    }
+    &:checked {
+        & + .clc-radioBox__label {
+            &::after {
+                opacity: 1;
+            }
+        }
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.clc-radioBox__label {
+    position: relative;
+    cursor: pointer;
+    color: $font-dark-01;
+    display: flex;
+    align-items: center;
+    font-size: rem(14px);
+    line-height: rem(20px);
+    padding-left: rem(32px);
+    &:last-of-type {
+        margin-right: 0;
+    }
+    &[for="__tr_sell"] {
+        margin-right: rem(24px);
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: rem(24px);
+        height: rem(24px);
+        border-radius: rem(6px);
+        border: 1px solid $grey-2;
+        transition: .3s ease-out;
+    }
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: rem(24px);
+        height: rem(24px);
+        background: url("../images/checkbox-checked.svg");
+        background-size: 100%;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+.clc-buttonsCta {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.clc-buttonsCta__btn--calculate {
+    margin-right: rem(30px);
+    background: $clc-colorMain;
+    color: white;
+    &:hover {
+        opacity: .8;
+    }
+}
+.clc-buttonsCta__btn--clear {
+    color: $clc-colorText;
+    border: rem(2px) solid rgba($clc-colorText, .5);
+    &:hover {
+        color: $clc-colorText;
+        border: rem(2px) solid rgba($clc-colorText, 1);
+    }
+}
+
+/* .clc-results {
+
+} */
+.clc-table {
+    text-align: center;
+}
+.clc-table__item {
+    width: calc(100% / 7);
+    flex-grow: 1;
+    text-align: left;
+}
+.clc-tableTitles__item {
+    font-size: rem(14px);
+    line-height: rem(24px);
+    font-weight: 600;
+    padding: rem(14px);
+    background: #FFD48D;
+    position: relative;
+    text-align: center;
+    color: $color-white;
+    &:first-child {
+        border-radius: rem(14px) 0 0 0;
+    }
+    &:last-child {
+        border-radius: 0 rem(14px) 0 0;
+    }
+}
+.clc-tableTitles {
+    display: flex;
+}
+.clc-tableResults {
+    display: flex;
+}
+.clc-tableResults__item {
+    padding: rem(16px) rem(14px);
+    color: $font-dark-01;
+    font-size: rem(14px);
+    line-height: rem(20px);
+    background: $grey-3;
+    text-align: center;
+    &:first-child {
+        border-radius: 0 0 0 rem(14px);
+    }
+    &:last-child {
+        border-radius: 0 0 rem(14px) 0;
+    }
+}
+
+.clc-preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: $clc-colorBgCalc;
+    border-radius: rem(10px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-out;
+    &.clc-showPreloader {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    span {
+        width: rem(30px);
+        height: rem(30px);
+        border-radius: 50%;
+        background: #5cb85c;
+        box-shadow: 0 0 0 rgba(92, 184, 92, 0.4);
+        animation: pulse 2s infinite;
+    }
+}
+.clc-buttonsCta__btn:first-child {
+    margin-right: rem(24px);
+}
+.clc-results {
+    width: 100%;
+    margin-top: rem(40px);
+    .clc-caption {
+        display: none;
+    }
+}
+.clc-tradeCalculator__inner {
+    position: relative;
+}
+.clc-arrowSelect.active {
+    pointer-events: auto;
+    cursor: pointer;
+}
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(92,184,92, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 rem(50px) rgba(92,184,92, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(92,184,92, 0);
+    }
+}
+
+
+@media (max-width: 1160px) {
+    .clc-calculator__row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: rem(16px);
+    }
+    .clc-positionParameters {
+        .clc-calculator__row {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    .clc-calculator__block {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .clc-calculator__block--select {
+        max-width: 100%;
+    }
+    .clc-calculator__block--control {
+        order: 10;
+    }
+    .clc-calculator__block--control,
+    .clc-calculator__block--radio {
+        text-align: center;
+        max-width: none;
+    }
+    .clc-calculator__block--radio {
+        order: 13;
+    }
+
+    .clc-table {
+        overflow-x: auto;
+    }
+    .clc-table__item {
+        width: rem(152px);
+        flex-shrink: 0;
+    }
+    .clc-tableResults {
+        border-radius: 0;
+        background: transparent;
+    }
+    .clc-tableResults__item {
+        padding-top: rem(24px);
+    }
+    .clc-calculator__heading {
+        margin-bottom: rem(16px) !important;
+    }
+    .clc-accountSettings {
+        margin-bottom: rem(24px) !important;
+    }
+    .clc-tableTitles {
+        background: transparent;
+        box-shadow: none;
+    }
+    .clc-results {
+        position: relative;
+        margin-top: rem(32px);
+    }
+    .clc-results .clc-caption {
+        margin-bottom: rem(16px);
+    }
+    .clc-positionParameters {
+        margin-bottom: rem(24px);
+    }
+}
+
+@media (max-width: 767px) {
+    .clc-calculator__row,
+    .clc-positionParameters .clc-calculator__row {
+        grid-template-columns: 1fr;
+    }
+}

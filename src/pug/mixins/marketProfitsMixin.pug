@@ -1,0 +1,20 @@
+mixin marketProfits(text)
+	section.section.section-profits
+		.wrapper.wrapper_profits
+			.profits-list
+				.profits-list-item.profits-list-item_1(data-aos="fade" data-aos-delay="300")
+					.icon-wrapper.icon-wrapper_1(class="icon-wrapper_" + currentPage data-aos="zoom-in" data-aos-delay="450")
+					h3.profits-list__title.h3-title !{text["profit1"].title[lang]}
+					p.profits-list__text !{text["profit1"].text[lang]}
+				.profits-list-item.profits-list-item_2(data-aos="fade" data-aos-delay="450")
+					.icon-wrapper.icon-wrapper_2(class="icon-wrapper_" + currentPage data-aos="zoom-in" data-aos-delay="600")
+					h3.profits-list__title.h3-title !{text["profit2"].title[lang]}
+					p.profits-list__text !{text["profit2"].text[lang]}
+				.profits-list-item.profits-list-item_3(data-aos="fade" data-aos-delay="600")
+					.icon-wrapper.icon-wrapper_3(class="icon-wrapper_" + currentPage data-aos="zoom-in" data-aos-delay="750")
+					h3.profits-list__title.h3-title !{text["profit3"].title[lang]}
+					p.profits-list__text !{text["profit3"].text[lang]}
+				.profits-list-item.profits-list-item_4(data-aos="fade" data-aos-delay="750")
+					.icon-wrapper.icon-wrapper_4(class="icon-wrapper_" + currentPage data-aos="zoom-in" data-aos-delay="900")
+					h3.profits-list__title.h3-title !{text["profit4"].title[lang]}
+					p.profits-list__text !{text["profit4"].text[lang]}

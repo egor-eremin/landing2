@@ -1,0 +1,104 @@
+.online-consult-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.online-consult-row_1 {
+  max-width: rem(480px);
+  width: 100%;
+  margin-right: rem(72px);
+  margin-left: rem(41px);
+}
+.consult-form {
+  background: $color-white;
+  box-shadow: 0px rem(4px) rem(24px) rem(14px) rgba(11, 50, 72, 0.04);
+  border-radius: rem(12px);
+  padding: rem(40px);
+  display: grid;
+  grid-gap: rem(24px);
+  grid-template-columns: 1fr;
+}
+.online-consult-row_2 {
+  width: 100%;
+  max-width: rem(456px);
+}
+.form-item-wrapper {
+  display: grid;
+  grid-gap: rem(16px);
+  grid-template-columns: 1fr 1fr;
+}
+.form-input_textarea {
+  resize: none;
+  height: rem(136px);
+}
+.btn_online-consult {
+  width: 100%;
+}
+.form-item_btn-online-consult {
+  margin-top: rem(16px);
+}
+.h2-title_online-consult {
+  margin-bottom: rem(16px);
+}
+.prex-text-online-consult {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: rem(16px);
+}
+.text-online-consult {
+  color: rgba(255, 255, 255, 0.8);
+}
+.decor-item_online-consult-1 {
+  top: 0;
+  left: rem(44px);
+  max-width: rem(80px);
+}
+.decor-item_online-consult-2 {
+  left: rem(-140px);
+  bottom: 0;
+  max-width: rem(168px);
+}
+.decor-item_online-consult-3 {
+  max-width: rem(168px);
+  bottom: 0;
+  right: rem(-140px);
+}
+.section_online-consult {
+  padding-top: rem(56px);
+  padding-bottom: rem(56px);
+}
+
+@media (max-width: 1160px) {
+  .online-consult-row_1 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: rem(32px);
+    align-items: center;
+  }
+  .online-consult-wrapper {
+    flex-direction: column;
+  }
+  .h2-title_online-consult,
+  .prex-text-online-consult,
+  .text-online-consult {
+    text-align: center;
+  }
+  .online-consult-row_2 {
+    max-width: rem(600px);
+  }
+  .form-input_textarea {
+    height: rem(90px);
+  }
+  .h2-title_online-consult {
+    margin-bottom: rem(24px) !important;
+  }
+  .form-item-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: rem(24px);
+  }
+  .form-item_btn-online-consult {
+    margin-top: 0;
+  }
+  .consult-form {
+    padding: rem(32px);
+  }
+}

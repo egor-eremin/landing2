@@ -1,0 +1,19 @@
+include ../nav.pug
+header.page-header_forms.page-header_forms.page-header.page-header_other-page
+	.wrapper-page-image(data-aos="" data-aos-delay="300")
+		.wrapper.wrapper__header-bg
+			img.img-header.img-header_form(src=baseDir + "assets/images/form.png" alt="contacts")
+	.wrapper.wrapper-header.form-wrapper.wrapper-header_other-page(data-aos="" data-aos-delay="300")
+		.text-header-wrapper.text-header-wrapper_reminder.text-header-wrapper_login.text-header-wrapper_forms
+			a(href="registration.html").form-links_item.form-links_item-login !{buttonText.signup[lang]}
+			h1.h1-title.h1-title_register.h1-title_reminder.left !{fotmsText.titleReminder[lang]}
+			.help-text.help-text-form.help-text-form_login !{formsText.text_required[lang]}
+			form#restore-form.main-form.main-form_reminder.main-form_login
+				.form-item.form-item_login
+					label.input-wrapper
+						span.label-form.label-form_sign !{formsText.labelMail[lang]}
+						input.form-input.form-input_sign#submit-email(type="email" required name="email" placeholder= formsText.placeholderEmail[lang])
+				.form-btn-submit.form-btn-submit_login.form-btn-submit_reminder
+					button.btn-submit.js--repass.btn.btn-login-form.btn-reminder-form.btn-main-form !{buttonText.btnSend[lang]}
+					.form-links.form-links_reminder
+						a(href="login.html").form-links_item !{formsText.allreadyText[lang]}

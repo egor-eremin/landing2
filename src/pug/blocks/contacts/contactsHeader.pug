@@ -1,0 +1,11 @@
+include ../nav.pug
+header.page-header.page-header_contacts.page-header_other-page
+	.wrapper-page-image(data-aos="" data-aos-delay="300")
+		.wrapper.wrapper__header-bg
+			img.img-header(src=baseDir + "assets/images/contacts_1x.png" alt="contacts")
+	.wrapper.wrapper-header.wrapper-header_other-page.wrapper-header_content
+		.text-header-wrapper.text-header-wrapper_contacts
+			h1.page-header__title.page-header__title-contacts.h1-title.center(data-aos="fade-up" data-aos-delay="350") !{contactsHeaderText.title[lang]}
+			p.page-header__text.page-header__text-contacts.center(data-aos="fade-up" data-aos-delay="450") !{contactsHeaderText.text[lang]}
+			.btn-header-wrapper(data-aos="fade-up" data-aos-delay="550")
+				button.callback-open-js.btn.btn-start-trade(class="callback-open-" + lang) !{buttonText.btnCallback[lang]}

@@ -1,0 +1,11 @@
+include ../nav.pug
+header.page-header.page-header_other-page
+	.wrapper-page-image(data-aos="" data-aos-delay="300")
+		.wrapper.wrapper__header-bg
+			img.img-header.img-header_trading(src=baseDir + "assets/images/trading.png" alt="trading")
+	.wrapper.wrapper-header.wrapper-header_tarding.wrapper-header_other-page
+		.text-header-wrapper.text-header-wrapper_trading
+			h1.page-header__title.h1-title.h1-title_trading.title-with-decor(data-aos="fade-up" data-aos-delay="350") !{tradingHeaderText.title[lang]}
+			p.page-header__text(data-aos="fade-up" data-aos-delay="450") !{tradingHeaderText.text[lang]}
+			.btn-header-wrapper(data-aos="fade-up" data-aos-delay="550")
+				a(href=linkSignup).btn.btn-start-trade !{buttonText.btnStartTrade[lang]}

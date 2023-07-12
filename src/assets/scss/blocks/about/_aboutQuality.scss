@@ -1,0 +1,21 @@
+.quality-wrapper {
+  flex-direction: row-reverse;
+}
+.quality-text-block {
+  margin-right: 0;
+  margin-left: rem(56px);
+}
+.quality-icon {
+  margin-right: 0;
+  margin-left: rem(24px);
+}
+.section-quality {
+  padding-top: rem(120px);
+}
+
+
+@media (max-width: 1160px) {
+  .section-quality {
+    padding-top: rem(40px);
+  }
+}

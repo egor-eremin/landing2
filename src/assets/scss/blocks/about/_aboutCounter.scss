@@ -1,0 +1,31 @@
+.counter-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: rem(32px);
+  margin-bottom: rem(34px);
+}
+.counter-list__title {
+  margin-bottom: rem(8px);
+  color: #23BBA0;
+}
+.counter-list__text {
+  text-align: center;
+}
+
+
+// ADAPTIVE
+@media (max-width: 1160px) {
+  .counter-list {
+    display: flex;
+    gap: rem(32px);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .counter-list__item {
+    width: rem(200px);
+  }
+  .counter-list__title {
+    margin-bottom: rem(8px) !important;
+  }
+}

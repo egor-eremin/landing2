@@ -1,0 +1,17 @@
+.benefits-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: rem(24px);
+}
+
+@media (max-width: 900px) {
+  .benefits-list {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: rem(24px) rem(16px);
+  }
+  .benefits-list-item,
+  .icon-wrapper {
+    transition-delay: 0.3s !important;
+  }
+
+}
