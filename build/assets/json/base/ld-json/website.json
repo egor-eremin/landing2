@@ -1,0 +1,6 @@
+{
+    "@context":"http://schema.org",
+    "@type":"WebSite", 
+    "name": "Company Name",
+    "url": "https://companyname.com"                
+}

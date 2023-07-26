@@ -1,0 +1,15 @@
+<svg width="168" height="368" viewBox="0 0 168 368" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="168" height="168" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 168 200)" fill="#0E3347"/>
+<rect width="168" height="84" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 168 284)" fill="#B1CDC7"/>
+<rect width="84" height="84" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 168 284)" fill="#92BAB3"/>
+<rect width="84" height="84" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 84 284)" fill="#B1CDC7"/>
+<path d="M-7.34351e-06 284L168 284C168 237.608 130.392 200 84 200C37.6081 200 -3.2878e-06 237.608 -7.34351e-06 284Z" fill="#B1CDC7"/>
+<path d="M84 284L168 284C168 237.608 130.392 200 84 200L84 284Z" fill="#92BAB3"/>
+<path d="M84 284L-7.34351e-06 284C-3.2878e-06 237.608 37.6081 200 84 200L84 284Z" fill="#B1CDC7"/>
+<rect width="64" height="64" rx="12" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 116 252)" fill="#0E3347"/>
+<path d="M168 200L-1.4687e-05 200C-6.57561e-06 107.216 75.2162 32 168 32L168 200Z" fill="#B60435"/>
+<path d="M168 200L84 200C84 153.608 121.608 116 168 116L168 200Z" fill="#E06654"/>
+<circle cx="104" cy="4" r="4" fill="#C51934"/>
+<circle cx="126" cy="4" r="4" fill="#C51934"/>
+<circle cx="148" cy="4" r="4" fill="#C51934"/>
+</svg>

@@ -1,0 +1,13 @@
+User-agent: *
+Allow: de/
+Allow: es/
+Allow: fr/
+Allow: it/
+Allow: ru/
+Allow: zh/
+Allow: pl/
+Disallow: /*.json
+Disallow: /*.php
+Disallow: /*.htaccess
+Disallow: /assets/
+Sitemap: /sitemap.xml

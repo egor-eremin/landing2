@@ -1,0 +1,21 @@
+<svg width="123" height="176" viewBox="0 0 123 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="88" height="88" transform="matrix(1 0 0 -1 35 87.9995)" fill="black"/>
+<rect width="88" height="44" transform="matrix(1 0 0 -1 35 44)" fill="#7B0A57"/>
+<circle r="5.2381" transform="matrix(1 0 0 -1 53.3333 22.0002)" fill="white"/>
+<circle r="5.2381" transform="matrix(1 0 0 -1 78.4762 22.0002)" fill="white"/>
+<circle r="5.2381" transform="matrix(1 0 0 -1 103.619 22.0002)" fill="white"/>
+<rect width="88" height="44" transform="matrix(1 0 0 -1 35 87.9995)" fill="#B60435"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M79 88L123 44V88H79ZM79 88C103.301 88 123 68.3005 123 44L79 88Z" fill="#E06654"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M79 43.9995L35 87.9995V43.9995H79ZM79 43.9995C54.6995 43.9995 35 63.699 35 87.9995L79 43.9995Z" fill="#7B0A57"/>
+<rect width="44" height="88" transform="matrix(1 0 0 -1 79 176)" fill="#E06654"/>
+<rect width="44" height="88" transform="matrix(1 0 0 -1 35 176)" fill="#B60435"/>
+<circle cx="1.92271" cy="165.072" r="1.92271" transform="rotate(-90 1.92271 165.072)" fill="#0B3248"/>
+<circle cx="1.92271" cy="154.498" r="1.92271" transform="rotate(-90 1.92271 154.498)" fill="#0B3248"/>
+<circle cx="1.92271" cy="143.923" r="1.92271" transform="rotate(-90 1.92271 143.923)" fill="#0B3248"/>
+<circle cx="12.4976" cy="165.072" r="1.92271" transform="rotate(-90 12.4976 165.072)" fill="#0B3248"/>
+<circle cx="12.4976" cy="154.498" r="1.92271" transform="rotate(-90 12.4976 154.498)" fill="#0B3248"/>
+<circle cx="12.4976" cy="143.923" r="1.92271" transform="rotate(-90 12.4976 143.923)" fill="#0B3248"/>
+<circle cx="23.0725" cy="165.072" r="1.92271" transform="rotate(-90 23.0725 165.072)" fill="#0B3248"/>
+<circle cx="23.0725" cy="154.498" r="1.92271" transform="rotate(-90 23.0725 154.498)" fill="#0B3248"/>
+<circle cx="23.0725" cy="143.923" r="1.92271" transform="rotate(-90 23.0725 143.923)" fill="#0B3248"/>
+</svg>

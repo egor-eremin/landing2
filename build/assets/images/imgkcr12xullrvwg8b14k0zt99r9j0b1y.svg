@@ -1,0 +1,18 @@
+<svg width="88" height="264" viewBox="0 0 88 264" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="44" y="176" width="44" height="88" fill="#F6AA21"/>
+<rect y="176" width="44" height="88" fill="#7B0A57"/>
+<path d="M0 87.9932H88V175.993L0 87.9932Z" fill="white"/>
+<path d="M0 175.993H88L0 87.9932V175.993Z" fill="#0B3248"/>
+<circle r="5.2381" transform="matrix(1 0 0 -1 68.0953 125.708)" fill="#FFAA1B"/>
+<circle r="5.2381" transform="matrix(1 0 0 -1 51.3333 108.946)" fill="#FFAA1B"/>
+<circle r="5.2381" transform="matrix(1 0 0 -1 34.5715 92.1838)" fill="#FFAA1B"/>
+<path d="M88 87.9932V108.946L67.0476 87.9932H88Z" fill="#B0CCC8"/>
+<path d="M0 0H88L0 88V0Z" fill="white"/>
+<path d="M88 0V88H0L88 0Z" fill="white"/>
+<path d="M0 0H88L44 44L0 0Z" fill="#FFAA1B"/>
+<path d="M3.8466e-06 88L0 0L44 44L3.8466e-06 88Z" fill="#851B5A"/>
+<circle cx="68.0953" cy="58.6668" r="5.2381" fill="#FFAA1B"/>
+<circle cx="51.3333" cy="75.4285" r="5.2381" fill="#FFAA1B"/>
+<circle cx="34.5715" cy="92.1907" r="5.2381" fill="#FFAA1B"/>
+<path d="M88 67.0474V87.9997H67.0476L88 67.0474Z" fill="#B0CCC8"/>
+</svg>
